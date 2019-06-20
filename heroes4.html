@@ -4,16 +4,26 @@
 
 <!-- by mbcat -->
   <style>
-  html {
-    font-size: 62.5%; }
 
-  div.content {
+  @media (min-width: 550px) {
+    div.content {
     max-width: 800px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
+
+  @media (min-width: 750px) {
+    div.content {
+    max-width: 1000px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    }
   }
 
   body {
-    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    font-size: 15px; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
