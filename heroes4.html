@@ -5,9 +5,10 @@
 <!-- by mbcat -->
   <style>
 
-  body {
+  div.menu {
   max-width: 1000px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   }
   div.content {
   max-width: 800px;
@@ -18,19 +19,21 @@
 
 
   @media only screen and (max-width: 800px) {
-    body {
+    div.menu {
     max-width: 800px;
     margin: auto;
     }
     div.content {
     max-width: 800px;
     margin: auto;
+    font-size:10vw
     }
   }
 
   @media only screen and (max-width: 600px) {
     body {
     max-width: 600px;
+    width: 100%;
     margin: auto;
     }
     div.content {
@@ -96,6 +99,7 @@
   </style>
 
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>HotS 分析</title>
 
@@ -2811,12 +2815,15 @@ padding-right: inherit;
 //# sourceMappingURL=crosstalk.min.js.map</script>
 </head>
 <body>
-
+<div class="menu">
   <ul class="menu">
     <li id="Twitter"><a href="https://twitter.com/mbcat_hots">mbcat</a></li>
     <li><a href="#news">HotS</a></li>
     <!--<li style="float:right"><a class="active" href="#about">About</a></li>-->
   </ul>
+</div>
+
+</div>
 
 <div class="content">
 
