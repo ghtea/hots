@@ -48,6 +48,7 @@
 
       /* Navbar container */
       .menu {
+        font-size: 18px;
         overflow: hidden;
         background-color: #333;
       }
@@ -55,10 +56,9 @@
       /* Links inside the navbar */
       .menu a {
         float: left;
-        font-size: 16px;
         color: white;
         text-align: center;
-        padding: 12px 12px 13px;
+        padding: 12px 14px 12px;
         text-decoration: none;
       }
 
@@ -69,35 +69,34 @@
       }
 
       /* Dropdown button */
-      .dropdown .dropbtn {
-        font-size: 16px;
-        border: none;
+      .dropdown .drop_button {
         outline: none;
+        border:none;
         color: white;
-        padding: 15px 12px 13px;
-        margin-bottom: 2px;
+        padding: 16px 14px 15px;
         background-color: inherit;
         font-family: inherit; /* Important for vertical align on mobile phones */
         margin: 0; /* Important for vertical align on mobile phones */
       }
 
-      /* Add a red background color to navbar links on hover */
-      .menu a:hover, .dropdown:hover .dropbtn {
+      /* !main purple!  Add a red background color to navbar links on hover */
+      .menu a:hover, .dropdown:hover .drop_button {
         background-color: #4A26CA;
       }
 
       /* Dropdown content (hidden by default) */
-      .dropdown-content {
+      .dropdown_content {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
         min-width: 160px;
+        font-size: 14px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
       }
 
       /* Links inside the dropdown */
-      .dropdown-content a {
+      .dropdown_content a {
         float: none;
         color: black;
         padding: 10px 16px 10px ;
@@ -107,19 +106,29 @@
       }
 
       /* Add a grey background color to dropdown links on hover */
-      .dropdown-content a:hover {
+      .dropdown_content a:hover {
         background-color: #ddd;
       }
 
       /* Show the dropdown menu on hover */
-      .dropdown:hover .dropdown-content {
+      .dropdown:hover .dropdown_content {
         display: block;
       }
-
 
       #Twitter:hover:not(.active) {
         background-color: #08a0e9;
       }
+
+      #Japanese {
+        font-size: 16px;
+        padding: 15px 14px 15px;
+      }
+
+      /*
+      #Now {
+        background-color: ;
+      }
+      */
 
 
 
@@ -2851,18 +2860,16 @@ padding-right: inherit;
 
   <a id="Twitter" href="https://twitter.com/mbcat_hots">mbcat</a>
 
-  <a href="https://ghtea.github.io/hots/heroes4.html">About</a>
-
   <div class="dropdown">
-    <button class="dropbtn">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+    <button class="drop_button" id="Japanese">日本語</button>
+    <div class="dropdown_content">
+      <a href="#">ガイド</a>
+      <a href="#">ヒーロー</a>
+      <a href="#">ロール</a>
     </div>
   </div>
+
+  <a href="#">others</a>
 
 </div>
 
