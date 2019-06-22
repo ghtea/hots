@@ -16,7 +16,7 @@
       font-family: Helvetica, Arial, sans-serif;
     }
 
-    div#menu {
+    div#menu_div {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +34,7 @@
 
 
     @media only screen and (min-width: 300px) and (max-width: 900px) {
-      div#menu {
+      div#menu_div {
       padding: 0;
       margin: 0;
       }
@@ -48,14 +48,8 @@
 /* !!! menu */
 ul#menu{
   position:fixed;
-  top:0;
-  width:100%;
-  height:3em;
-  margin:0;
-  padding:0 10px;
+  font-size: 18px;
   background:#333;
-  color:#eee;
-  box-shadow:0 -1px rgba(0,0,0,.5) inset;
 }
 
 ul#menu > li{
@@ -68,7 +62,6 @@ label{
   position:relative;
   display:block;
   padding:0 18px 0 12px;
-  line-height:3em;
   transition:background 0.3s;
   cursor:pointer;
 }
@@ -89,7 +82,7 @@ label:after{
 }
 
 label:hover,
-input:checked ~ label{background:rgba(0,0,0,.3);}
+input:checked ~ label{background-color: #4A26CA;}
 
 input:checked ~ label:after{
   border-top:0 solid rgba(255,255,255,.5);
@@ -112,8 +105,10 @@ ul.submenu{
   padding:0;
   overflow:hidden;
   list-style-type:none;
-  background:#444;
-  box-shadow:0 0 1px rgba(0,0,0,.3);
+  font-size: 14px;
+  color: black;
+  background:#f9f9f9;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
   transition:max-height 0.5s ease-out;
   position:absolute;
   min-width:100%;
