@@ -17,7 +17,7 @@
     }
 
 
-    div.menu {
+    div#menu {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -35,7 +35,7 @@
 
 
     @media only screen and (min-width: 300px) and (max-width: 900px) {
-      div.menu {
+      div#menu {
       padding: 0;
       margin: 0;
       }
@@ -47,19 +47,10 @@
 
 
 /* !!! menu */
-      .menu {
+      #menu {
         font-size: 18px;
         overflow: hidden;
         background-color: #333;
-      }
-
-      /* Links inside the navbar */
-      .menu a {
-        float: left;
-        color: white;
-        text-align: center;
-        padding: 12px 14px 12px;
-        text-decoration: none;
       }
 
       /* The dropdown container */
@@ -69,7 +60,8 @@
       }
 
       /* Dropdown button */
-      .dropdown .drop_button {
+      .drop_button {
+        font-size: 16px;
         outline: none;
         border:none;
         color: white;
@@ -80,7 +72,7 @@
       }
 
       /* !main purple main color!  Add a red background color to navbar links on hover */
-      .menu a:hover, .dropdown:hover .drop_button {
+      .dropdown:hover .drop_button {
         background-color: #4A26CA;
       }
 
@@ -90,6 +82,7 @@
         position: absolute;
         background-color: #f9f9f9;
         min-width: 160px;
+        color: black;
         font-size: 14px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
@@ -115,6 +108,11 @@
         display: block;
       }
 
+      /*
+      #Now {
+        background-color: ;
+      }
+
       #Twitter:hover:not(.active) {
         background-color: #08a0e9;
       }
@@ -122,11 +120,6 @@
       #Japanese {
         font-size: 16px;
         padding: 15px 14px 15px;
-      }
-
-      /*
-      #Now {
-        background-color: ;
       }
       */
 
@@ -2880,9 +2873,7 @@ padding-right: inherit;
 <body>
 
 <!-- menu -->
-<div id="menu">
-</div>
-
+<div id="menu"></div>
 <script>
 $(function(){
   $("#menu").load("https://ghtea.github.io/hots/JP/menu_jp.html");
