@@ -56,7 +56,6 @@ label.label_menu{
 position:relative;
 color: white;
 display:block;
-padding:0px 33px 0px 27px;
 line-height:50px;
 }
 
@@ -65,7 +64,7 @@ label.label_menu li a{
 position:relative;
 color: white;
 display:block;
-padding:0px 33px 0px 27px;
+padding:0px 31px 0px 23px;
 line-height:50px;
 }
 
