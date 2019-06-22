@@ -9,6 +9,16 @@
 
 <title>ツリー</title>
 
+<script>
+  function onlyOne(checkbox) {
+    var checkboxes = document.getElementsByName('menu')
+    checkboxes.forEach((item) => {
+        if (item !== checkbox) item.checked = false
+    })
+  }
+</script>
+
+
 
 <script>(function() {
   // If window.HTMLWidgets is already defined, then use it; otherwise create a
