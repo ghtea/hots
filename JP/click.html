@@ -59,7 +59,7 @@ ul#menu > li {
   list-style-type:none;
 }
 
-label{
+label.label_menu{
   position:relative;
   color: white;
   display:block;
@@ -67,7 +67,7 @@ label{
   line-height:50px;
 }
 
-label li a{
+label.label_menu li a{
   position:relative;
   color: white;
   display:block;
@@ -75,7 +75,7 @@ label li a{
   line-height:50px;
 }
 
-label:after{
+label.label_menu:after{
   content:"";
   position:absolute;
   display:block;
@@ -90,7 +90,7 @@ label:after{
   transition:border-bottom .1s, border-top .1s .1s;
 }
 
-label:hover{ cursor: pointer; }
+label.label_menu:hover{ cursor: pointer; }
 
 input:checked ~ label{background-color: #4A26CA;}
 
@@ -2647,7 +2647,7 @@ border: 0 solid rgba(0, 0, 0, 0);
 }
 .selectize-control.multi .selectize-input > div.active {
 background: #428bca;
-color: #000000;
+color: #ffffff;
 border: 0 solid rgba(0, 0, 0, 0);
 }
 .selectize-control.multi .selectize-input.disabled > div,
