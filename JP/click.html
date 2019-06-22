@@ -15,7 +15,7 @@
       font-family: Helvetica, Arial, sans-serif;
     }
 
-    div#menu_div {
+    ul#menu {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -46,25 +46,29 @@
 
 /* !!! menu */
 ul#menu{
-  font-size: 18px;
-  background-color: #33333;
+  height:45px;
+  background:#333;
+  color:#fff;
+  box-shadow:0 -1px rgba(0,0,0,.5) inset;
 }
 
 ul#menu > li{
+  padding-left: 14px;
+  padding-right: 14px;
   float:left;
   list-style-type:none;
-  position:relative;
 }
 
-ul#menu > label{
+label{
   position:relative;
   display:block;
   padding:0 18px 0 12px;
+  line-height:45px;
   transition:background 0.3s;
   cursor:pointer;
 }
 
-ul#menu > label:after{
+label:after{
   content:"";
   position:absolute;
   display:block;
@@ -79,50 +83,49 @@ ul#menu > label:after{
   transition:border-bottom .1s, border-top .1s .1s;
 }
 
-ul#menu > label:hover,
+label:hover,
 input:checked ~ label{background-color: #4A26CA;}
 
-ul#menu > input:checked ~ label:after{
+input:checked ~ label:after{
   border-top:0 solid rgba(255,255,255,.5);
   border-bottom:4px solid rgba(255,255,255,.5);
   transition:border-top .1s, border-bottom .1s .1s;
 }
 
 /*hide the inputs*/
-ul#menu > input{display:none}
+input{display:none}
 
 /*show the second levele menu of the selected voice*/
-ul#menu > input:checked ~ ul#menu > ul.submenu{
+input:checked ~  ul.submenu{
   max-height:300px;
   transition:max-height 0.5s ease-in;
 }
 
 /*style for the second level menu*/
-ul#menu > ul.submenu{
+ul.submenu{
   max-height:0;
   padding:0;
   overflow:hidden;
   list-style-type:none;
   font-size: 14px;
-  color: black;
   background:#f9f9f9;
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
   transition:max-height 0.5s ease-out;
   position:absolute;
-  min-width:100%;
+  min-width: 160px;
 }
 
-ul#menu > ul.submenu li a{
+ul.submenu li a{
   display:block;
+  color: black;
   padding:12px;
-  color:#ddd;
   text-decoration:none;
   box-shadow:0 -1px rgba(0,0,0,.5) inset;
   transition:background .3s;
   white-space:nowrap;
 }
 
-ul#menu > ul.submenu li a:hover{
+ul.submenu li a:hover{
   background:#ddd;
 }
 
