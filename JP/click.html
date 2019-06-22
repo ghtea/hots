@@ -67,7 +67,7 @@ label.label_menu{
   line-height:50px;
 }
 
- 
+
 label.label_menu li a{
   position:relative;
   color: white;
@@ -93,19 +93,19 @@ label.label_menu:after{
 
 label.label_menu:hover{ cursor: pointer; }
 
-input:checked ~ label{background-color: #4A26CA;}
+input.input_menu:checked ~ label{background-color: #4A26CA;}
 
-input:checked ~ label:after{
+input.input_menu:checked ~ label:after{
   border-top:0 solid rgba(255,255,255,.5);
   border-bottom:4px solid rgba(255,255,255,.5);
   transition:border-top .1s, border-bottom .1s .1s;
 }
 
 /*hide the inputs*/
-input{display:none}
+input.input_menu{display:none}
 
 /*show the second levele menu of the selected voice*/
-input:checked ~  ul.submenu{
+input.input_menu:checked ~  ul.submenu{
   max-height:300px;
   transition:max-height 0.3s ease-in;
 }
