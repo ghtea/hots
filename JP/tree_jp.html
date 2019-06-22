@@ -12,6 +12,13 @@
 
     <title>ツリー</title>
 
+  <script src="https://ghtea.github.io/hots/jquery.js"></script>
+  <script>
+    $(function(){
+      $("#menu_div").load("https://ghtea.github.io/hots/JP/menu_click_jp.html"); 
+    });
+  </script>
+
   <script>
     function onlyOne(checkbox) {
       var checkboxes = document.getElementsByName('menu')
@@ -1217,12 +1224,6 @@ function separationFun(a, b) {
 
 <!-- menu -->
 <div id="menu_div"></div>
-<script>
-$(function(){
-  $("#menu_div").load("https://ghtea.github.io/hots/JP/menu_click_jp.html");
-});
-</script>
-
 
 <div class="content">
 
