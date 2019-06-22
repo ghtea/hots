@@ -47,7 +47,7 @@
 /* !!! menu */
 ul#menu{
   font-size: 18px;
-  background:#333;
+  background-color: #33333;
 }
 
 ul#menu > li{
@@ -64,7 +64,7 @@ ul#menu > label{
   cursor:pointer;
 }
 
-div#menu_div > label:after{
+ul#menu > label:after{
   content:"";
   position:absolute;
   display:block;
@@ -79,26 +79,26 @@ div#menu_div > label:after{
   transition:border-bottom .1s, border-top .1s .1s;
 }
 
-label:hover,
+ul#menu > label:hover,
 input:checked ~ label{background-color: #4A26CA;}
 
-input:checked ~ label:after{
+ul#menu > input:checked ~ label:after{
   border-top:0 solid rgba(255,255,255,.5);
   border-bottom:4px solid rgba(255,255,255,.5);
   transition:border-top .1s, border-bottom .1s .1s;
 }
 
 /*hide the inputs*/
-input{display:none}
+ul#menu > input{display:none}
 
 /*show the second levele menu of the selected voice*/
-input:checked ~ ul.submenu{
+ul#menu > input:checked ~ ul#menu > ul.submenu{
   max-height:300px;
   transition:max-height 0.5s ease-in;
 }
 
 /*style for the second level menu*/
-ul.submenu{
+ul#menu > ul.submenu{
   max-height:0;
   padding:0;
   overflow:hidden;
@@ -112,7 +112,7 @@ ul.submenu{
   min-width:100%;
 }
 
-ul.submenu li a{
+ul#menu > ul.submenu li a{
   display:block;
   padding:12px;
   color:#ddd;
@@ -122,8 +122,8 @@ ul.submenu li a{
   white-space:nowrap;
 }
 
-ul.submenu li a:hover{
-  background:rgba(0,0,0,.3);
+ul#menu > ul.submenu li a:hover{
+  background:#ddd;
 }
 
 
