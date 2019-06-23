@@ -89,7 +89,11 @@ transition:border-bottom .1s, border-top .1s .1s;
 
 label.label_menu:hover{ cursor: pointer; }
 
-input.input_menu:checked ~ label{background-color: #4A26CA;}
+
+input.input_menu:checked ~ label{
+    /* main gradient !!! */
+    background-image: linear-gradient(to bottom right, #7B1FA2, #1A237E);
+}
 
 input.input_menu:checked ~ label:after{
 border-top:0 solid rgba(255,255,255,.5);
