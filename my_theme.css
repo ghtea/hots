@@ -1,3 +1,6 @@
+/* made by mbcat */
+
+
 /* margin, padding: only pages with no r tables()?) */
   body {
     margin: 0;
@@ -156,13 +159,18 @@ padding-right: 5px;
     border-radius: 5px;
     background-image: linear-gradient(to bottom right, #7B1FA2, #1A237E);
 }
-.show_hide{
+
+.show_hide_button{
     text-decoration: none;
     font-size: 18px;
     color: white;
     padding: 6px;
     border-radius: 9px;
     background-image: linear-gradient(to bottom right, #7B1FA2, #1A237E);
+}
+
+show_hide_content_div{
+    background-color: #dddddd;
 }
 
 
