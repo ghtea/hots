@@ -18,6 +18,8 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0;
+  border-bottom: 3px;
+  border-bottom-color:  #555555;
   }
   div.content {
   max-width: 800px;
