@@ -3,7 +3,10 @@
 
 /* margin, padding: only pages with no r tables()?) */
   body {
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
     padding: 0;
     font-size: 16px;
     line-height: 1.8;
