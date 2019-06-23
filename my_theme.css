@@ -171,8 +171,9 @@ padding-right: 5px;
 
 .show_hide_content_div{
     background-color: #eeeeee;
-    padding-top: 5px;
-    padding-bottom: 5px;      
+    padding-top: 2px;
+    padding-bottom: 2px;      
+    border-radius: 9px;
 }
 
 
