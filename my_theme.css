@@ -170,7 +170,9 @@ padding-right: 5px;
 }
 
 .show_hide_content_div{
-    background-color: #dddddd;
+    background-color: #eeeeee;
+    padding-top: 5px;
+    padding-bottom: 5px;      
 }
 
 
