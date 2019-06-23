@@ -149,11 +149,18 @@ padding-right: 5px;
     font-style: oblique;
 }
 
+.page_link{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, #7B1FA2, #1A237E);
+}
 .show_hide{
     text-decoration: none;
     font-size: 18px;
     color: white;
-    padding: 3px;
+    padding: 6px;
     border-radius: 9px;
     background-image: linear-gradient(to bottom right, #7B1FA2, #1A237E);
 }
