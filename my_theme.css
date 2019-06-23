@@ -173,7 +173,6 @@ padding-right: 5px;
     padding: 6px;
     border-radius: 9px;
     background-image: linear-gradient(to bottom right, #7B1FA2, #1A237E);
-    margin-bottom: 3px;
 }
 
 .show_hide_content_div{
@@ -181,6 +180,7 @@ padding-right: 5px;
     border-radius: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
+    margin-top: 3px;
 }
 
 
