@@ -169,7 +169,7 @@ padding-right: 5px;
     background-image: linear-gradient(to bottom right, #7B1FA2, #1A237E);
 }
 
-show_hide_content_div{
+.show_hide_content_div{
     background-color: #dddddd;
 }
 
