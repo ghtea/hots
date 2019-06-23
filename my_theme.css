@@ -149,8 +149,8 @@ padding-right: 5px;
     text-decoration: none;
     font-size: 18px;
     color: white;
-    background-color:#555555;
-    border: 3px  solid #555555;
+    padding: 3px;
+    background-image: linear-gradient(to bottom right, purple, blue);
 }
 
 
