@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.8;
     font-weight: 400;
     font-family: Helvetica, Arial, sans-serif;
   }
@@ -171,11 +171,8 @@ padding-right: 5px;
 
 .show_hide_content_div{
     background-color: #eeeeee;
-    padding-top: 2px;
-    padding-bottom: 2px;      
-    border-radius: 9px;
+    border-radius: 6px;
 }
-
 
 
 .table_title {
