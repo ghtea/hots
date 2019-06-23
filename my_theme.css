@@ -3,10 +3,7 @@
 
 /* margin, padding: only pages with no r tables()?) */
   body {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 5px;
+    margin: 0;
     padding: 0;
     font-size: 16px;
     line-height: 1.8;
@@ -48,7 +45,7 @@
 /* !!! menu */
 ul#menu {
 height:50px;
-border-bottom: 3px solid #555555;
+border-bottom: 3px solid #777777;
 background:#333;
 color:#fff;
 box-shadow:0 -1px rgba(0,0,0,.5) inset;
