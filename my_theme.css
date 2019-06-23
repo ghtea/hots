@@ -45,7 +45,7 @@
 /* !!! menu */
 ul#menu {
 height:50px;
-border-bottom: 3px solid #777777;
+border-bottom: 2px solid #666666;
 background:#333;
 color:#fff;
 box-shadow:0 -1px rgba(0,0,0,.5) inset;
