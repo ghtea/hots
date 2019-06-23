@@ -2,169 +2,39 @@
 <html>
 <head>
 
-  <!-- css by mbcat  -->
-  <style>
+ <!-- css by mbcat  -->
+  <link rel="stylesheet" href="https://ghtea.github.io/hots/my_theme.css">
 
-  /* margin, padding: only pages with no r tables()?) */
-    body {
-      margin: 0;
-      padding: 0;
-
-      font-size: 16px;
-      line-height: 1.6;
-      font-weight: 400;
-      font-family: Helvetica, Arial, sans-serif;
-    }
-
-
-    div.menu {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    }
-    div.content {
-    max-width: 800px;
-    padding: 10;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-
-    color: #444444;
-    font-size: 18px;
-    }
-
-
-    @media only screen and (min-width: 300px) and (max-width: 900px) {
-      div.menu {
-      padding: 0;
-      margin: 0;
-      }
-      div.content {
-      width: 95%;
-      /* margin: 50px 10px 50px;  right margin doesn't work :( -->*/
-      }
-    }
-
-
-/* !!! menu */
-      .menu {
-        font-size: 18px;
-        overflow: hidden;
-        background-color: #333;
-      }
-
-      /* Links inside the navbar */
-      .menu a {
-        float: left;
-        color: white;
-        text-align: center;
-        padding: 12px 14px 12px;
-        text-decoration: none;
-      }
-
-      /* The dropdown container */
-      .dropdown {
-        float: left;
-        overflow: hidden;
-      }
-
-      /* Dropdown button */
-      .dropdown .drop_button {
-        outline: none;
-        border:none;
-        color: white;
-        padding: 16px 14px 15px;
-        background-color: inherit;
-        font-family: inherit; /* Important for vertical align on mobile phones */
-        margin: 0; /* Important for vertical align on mobile phones */
-      }
-
-      /* !main purple!  Add a red background color to navbar links on hover */
-      .menu a:hover, .dropdown:hover .drop_button {
-        background-color: #4A26CA;
-      }
-
-      /* Dropdown content (hidden by default) */
-      .dropdown_content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        font-size: 14px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-
-      /* Links inside the dropdown */
-      .dropdown_content a {
-        float: none;
-        color: black;
-        padding: 10px 16px 10px ;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-      }
-
-      /* Add a grey background color to dropdown links on hover */
-      .dropdown_content a:hover {
-        background-color: #ddd;
-      }
-
-      /* Show the dropdown menu on hover */
-      .dropdown:hover .dropdown_content {
-        display: block;
-      }
-
-      #Twitter:hover:not(.active) {
-        background-color: #08a0e9;
-      }
-
-      #Japanese {
-        font-size: 16px;
-        padding: 15px 14px 15px;
-      }
-
-      /*
-      #Now {
-        background-color: ;
-      }
-      */
-
-/* basic  */
-h1 h2 h3 h4 h5 {
-  color: #000000;
-}
-
-    </style>
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>ガイド</title>
+  <!-- call my menu !!!-->
+  <script src="https://ghtea.github.io/hots/jquery.js"></script>
+  <script>
+    $(function(){
+      $("#menu_div").load("https://ghtea.github.io/hots/JP/menu_jp.html");
+    });
+  </script>
 
-
-
+  <!-- make only one menu clickable -->
+<script>
+  function onlyOne(checkbox) {
+    var checkboxes = document.getElementsByName('menu')
+    checkboxes.forEach((item) => {
+        if (item !== checkbox) item.checked = false
+    })
+  }
+</script>
+    
+    
+    
+ <title>ガイド</title>
 </head>
 <body>
 
 <!-- menu -->
-  <div class="menu">
-
-    <a id="Twitter" href="https://twitter.com/mbcat_hots">mbcat</a>
-
-    <div class="dropdown">
-      <button class="drop_button" id="Japanese">日本語</button>
-      <div class="dropdown_content">
-        <a href="https://ghtea.github.io/hots/JP/guide_jp.html">ガイド</a>
-        <a href="https://ghtea.github.io/hots/JP/hero_jp.html">ヒーロー</a>
-        <a href="https://ghtea.github.io/hots/JP/role_jp.html">ロール</a>
-      </div>
-    </div>
-
-    <a href="#">others</a>
-
-  </div>
-
+<div id="menu_div"></div>
 
 <div class="content">
 
