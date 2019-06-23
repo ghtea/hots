@@ -4,6 +4,7 @@
  $("#menu_div").load("https://ghtea.github.io/hots/jp/menu_jp.html");
     });
   
+
 //make only one menu clickable
 function onlyOne(checkbox) {
     var checkboxes = document.getElementsByName('menu');
