@@ -151,6 +151,7 @@ color: #000000;
 
 strong {
     background-color: #FFFDC2;
+    border:2px solid #FFFDC2;
     color:black;
 }
 
