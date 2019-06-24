@@ -151,7 +151,7 @@ color:black;
 
 strong {
     background-color: #FFFDC2;
-    border:2px solid #FFFDC2;
+    border:1px solid #FFFDC2;
     color:black;
 }
 
@@ -174,7 +174,7 @@ padding-right: 5px;
 
 .show_hide_button{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 17px;
     color: #1A237E;
     padding: 6px;
     border-radius: 9px;
