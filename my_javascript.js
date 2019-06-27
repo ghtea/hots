@@ -3,6 +3,10 @@
    $(function(){
  $("#menu_div").load("https://ghtea.github.io/hots/jp/menu_jp.html");
     });
+
+ $(function(){
+ $("#menu_div_eng").load("https://ghtea.github.io/hots/eng/menu_eng.html");
+    });
   
 
 //make only one menu clickable
