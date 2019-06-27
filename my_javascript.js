@@ -9,7 +9,7 @@
     });
 
 $(function(){
- $("#menu_div_eng").load("https://ghtea.github.io/hots/kr/menu_kr.html");
+ $("#menu_div_kr").load("https://ghtea.github.io/hots/kr/menu_kr.html");
     });
   
 
