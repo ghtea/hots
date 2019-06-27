@@ -7,6 +7,10 @@
  $(function(){
  $("#menu_div_eng").load("https://ghtea.github.io/hots/eng/menu_eng.html");
     });
+
+$(function(){
+ $("#menu_div_eng").load("https://ghtea.github.io/hots/kr/menu_kr.html");
+    });
   
 
 //make only one menu clickable
