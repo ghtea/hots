@@ -259,34 +259,42 @@ font-size: 15px;
 
 
 .btn_role,   .btn_sub_role  {
+    padding-top: 0.5vw;
+    padding-bottom:  0.5vw;
     border: none;
     text-decoration: none;
     display: inline-block;
     display: block;
      text-align: center;
-    
-    font-size: 2.2vw;
     width: 100%;
+    
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .btn_role,   .btn_sub_role {
+        font-size: 2.5vw;
+    }
 }
 
 
 #btn_role_D_K,  #btn_role_D_D {
-    padding-top: 1vw;
-    padding-bottom:  1vw;
+    padding-top: 0.5vw;
+    padding-bottom:  0.5vw;
     background-color: #C5191C;
     color: white;
 }
 
 #btn_role_H_H,  #btn_role_H_o {
-    padding-top: 1vw;
-    padding-bottom:  1vw;
+    padding-top: 0.5vw;
+    padding-bottom:  0.5vw;
     background-color: #00BB6E;
     color: white;
 }
 
 #btn_role_A_W,  #btn_role_A_o {
-    padding-top: 1vw;
-    padding-bottom:  1vw;
+    padding-top: 0.5vw;
+    padding-bottom:  0.5vw;
     background-color: #1971D1;
     color: white;
 }
