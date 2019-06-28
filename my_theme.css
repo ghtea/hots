@@ -244,7 +244,7 @@ font-size: 15px;
 }
 
 
-#btn_role_D_K,  btn_role_D_D {
+#btn_role_D_K,  #btn_role_D_D {
     background-color: Red;
     color: white;
 }
