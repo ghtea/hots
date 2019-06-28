@@ -226,8 +226,6 @@ font-size: 15px;
 /*  top 3 columns    */
 
 
-
-
 #role_D, #role_H, #role_A {
     float: left;
     text-align: center;
@@ -300,5 +298,24 @@ font-size: 15px;
 }
 
 
+/* role information */
+.information_role {
+  overflow: hidden;
+}
+
+.filterDiv {
+  float: left;
+  display: none; /* Hidden by default */
+}
+
+.show {
+  display: block;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
 
 
