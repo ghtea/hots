@@ -320,7 +320,7 @@ font-size: 15px;
 }
 
 /* Add a dark background to the active button */
-.btn.active {
+.btn_sub_role.active {
   background-color: #666;
   color: white;
 }
