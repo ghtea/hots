@@ -231,6 +231,8 @@ font-size: 15px;
 #role_D, #role_H, #role_A {
     float: left;
     text-align: center;
+    padding-top: 1vw;
+    padding-bottom:  1vw;
      font-size: 2.7vw;
     width: 33.3%;
 }
