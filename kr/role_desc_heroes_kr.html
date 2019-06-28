@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- css  by mbcat  -->
+  <link rel="stylesheet" href="https://ghtea.github.io/hots/my_theme.css">
+    
+ <script src="https://ghtea.github.io/hots/jquery.js"></script>
+ 
+  <!-- javascript  by mbcat  -->    
+<script src="https://ghtea.github.io/hots/my_javascript.js"></script>
+
+<meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- 1st boundary -->
+
+
+<!-- scripts from others -->
+<!-- DT table hover line
+    delete
+    table.dataTable.display tbody tr:hover{background-color:
+    
+    full delete 
+    table.dataTable.hover tbody tr:hover,table.dataTable.display tbody tr:hover{background-color:     ~~~}
+
+-->
+<!-- DT table basic every 2nds  line
+    table.dataTable.display tbody tr.odd{background-color:#f9f9f9
+    didn't change yet, just memo for future change
+
+-->
+
+
+<!-- content  -->
+
+<title> 역할</title>
+</head>
+<body>
+    
+<!-- menu -->
+<div id="menu_div_kr"></div>
+
+<!--    don't forget    </div> later in this file   -->
+<div class="content">
+
+  <h1>역할</h1>
+    
+  <ul>
+     <li><strong>공식 영웅 분류와 다릅니다 </strong></li>      
+    </ul>
+    
+    
+    <div id="buttons_role">
+  <button class="btn_role active" onclick="filterSelection('A_W')"> Warrior</button>
+  <button class="btn_role" id = "btn_role_A_o" 
+          onclick="filterSelection('A_o')"> (others)</button>
+  <button class="btn_role"  id = "btn_role_D_K" 
+          onclick="filterSelection('D_K')"> Killer</button>
+  <button class="btn_role"  id = "btn_role_D_D" 
+          onclick="filterSelection('D_D')"> Dealer</button>
+  <button class="btn_role"  id = "btn_role_H_H" 
+          onclick="filterSelection('H_H')"> Healer</button>
+<button class="btn_role"  id = "btn_role_H_o" 
+        onclick="filterSelection('H_o')">                    
+    (others)</button>
+</div>
+    
+       <div id="buttons_sub_role">
+  <button class="btn_sub_role" onclick="filterSelection('A_W')"> Warrior</button>
+  <button class="btn_sub_role" onclick="filterSelection('A_o')"> (others)</button>
+  <button class="btn_sub_role" onclick="filterSelection('D_K')"> Killer</button>
+  <button class="btn_sub_role" onclick="filterSelection('D_D')"> Dealer</button>
+  <button class="btn_sub_role" onclick="filterSelection('H_H')"> Healer</button>
+<button class="btn_sub_role" onclick="filterSelection('H_o')">                    
+    (others)</button>
+</div>
+    
+    
+    
+<!-- hide and show button 
+<a href="#" onclick="toggle_visibility( 'show1' );" class = "show_hide_content_div">
+   Show/Hide </a>
+    
+<div id="show1">  
+    Details ~~~~  
+</div>
+-->
+    
+
+
+<!-- 2 div sets for one widget 
+
+example
+
+ <div id="htmlwidget_container">
+ <div id="htmlwidget-cf7310461779ec0ed371" class="datatables html-widget">
+</div>
+</div>
+-->
+
+    
+<!-- 2 script sets for one widget 
+
+1. adjust  2nd script ,  "width":"100%","padding":0
+                    ~"browser":{"width":"100%","padding":0,"fill":false}
+
+    especially don't forget "padding":0 !!!
+
+2. adjust   1st script,  delete information about width & height or just keep
+
+3. (DT) add    class="table_box"   to    <div id="htmlwidget_container"  > 
+
+example
+
+<script type="application/json" data-for="htmlwidget-45e6f3c5b996bae5e0b8">~~</script>
+
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-45e6f3c5b996bae5e0b8">
+{"viewer":{"width":450,"height":350,"padding":15,"fill":true},
+"browser":{"width":"100%","padding":0,"fill":false}
+}
+</script>
+
+-->
+    
+<!-- when only change table/graph data
+
+replace 
+<script type="application/json" data-for="htmlwidget-69c4e57fe6565ec35cf2"> 
+~~~~ 
+</script>
+
+by new one, and 
+
+only replce     htmlwidget-69c~~~~     
+
+fromt next    
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-69c4e57fe6565ec35cf2"> 
+
+and previous 
+<div id="htmlwidget-69c4e57fe6565ec35cf2" class="rbokeh html-widget" style="width:800px;height:500px;"> 
+
+
+-->
+
+</div>
+</body>
+</html>

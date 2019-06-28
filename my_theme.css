@@ -218,3 +218,23 @@ background-color: #f9f9f9;
 .dataTables_length {
 font-size: 15px;
 }
+
+
+."btn_role"  {
+    width: 15%;
+}
+
+#btn_role_D_K {
+    margin-left: 5%;
+}
+
+#btn_role_D_D {
+    margin-right: 5%;
+}
+
+
+
+
+
+
+
