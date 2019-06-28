@@ -260,7 +260,7 @@ font-size: 15px;
 .btn_role,   .btn_sub_role  {
     padding-top: 0.5vw;
     padding-bottom:  0.7vw;
-    
+    background-color: #dddddd;
     border: none;
     text-decoration: none;
     display: inline-block;
