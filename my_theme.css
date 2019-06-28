@@ -220,23 +220,18 @@ font-size: 15px;
 }
 
 
-."btn_role"  button {
-    width: 15%;
-    font-size: 20px;
-    padding: 10px;
+
+.column {
+  float: left;
+  width: 16.6%;
 }
 
-#btn_role_D_K {
-    margin-left: 5%;
+/* Clear floats after the columns */
+.col_role_entire:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
-#btn_role_D_D {
-    margin-right: 5%;
-}
-
-
-
-
 
 
 

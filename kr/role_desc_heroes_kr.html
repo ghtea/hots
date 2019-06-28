@@ -51,33 +51,26 @@
     </ul>
     
     
-    <div id="buttons_role">
-  <button class="btn_role"  id = "btn_role_D_K" 
-          onclick="filterSelection('D_K')"> Killer</button>
-  <button class="btn_role"  id = "btn_role_D_D" 
-          onclick="filterSelection('D_D')"> Dealer</button>
-  <button class="btn_role"  id = "btn_role_H_H" 
-          onclick="filterSelection('H_H')"> Healer</button>
-<button class="btn_role"  id = "btn_role_H_o" 
-        onclick="filterSelection('H_o')"> (others)</button>
- <button class="btn_role"  id = "btn_role_A_W" 
-        onclick="filterSelection('A_W')"> Warrior</button>
-  <button class="btn_role" id = "btn_role_A_o" 
-          onclick="filterSelection('A_o')"> (others)</button>
-</div>
-    
-    
 
     
-    
+    <div class = "col_role">
+        <button class="btn_role"  id = "btn_role_D_K" 
+          onclick="filterSelection('D_K')"> Killer</button>
+        
       <div id="buttons_sub_role_D_K">
   <button class="btn_sub_role" onclick="filterSelection('D_K_A')"> Assassin</button>
 <button class="btn_sub_role" onclick="filterSelection('D_K_B')"> Burst</button>
 <button class="btn_sub_role" onclick="filterSelection('D_K_S')"> Shooter</button>
 <button class="btn_sub_role" onclick="filterSelection('D_K_a')"> (Alarak)</button>
-
      </div>
+        
+        </div>
     
+    
+    <div class = "col_role">
+         <button class="btn_role"  id = "btn_role_D_D" 
+          onclick="filterSelection('D_D')"> Dealer</button>
+        
       <div id="buttons_sub_role_D_D">
   <button class="btn_sub_role" onclick="filterSelection('D_D_G')"> 
     Guardian</button>
@@ -89,7 +82,13 @@
     (Probius)</button>
 
      </div>
+        </div>
     
+        
+        <div class = "col_role">
+              <button class="btn_role"  id = "btn_role_H_H" 
+          onclick="filterSelection('H_H')"> Healer</button>
+        
       <div id="buttons_sub_role_H_H">
   <button class="btn_sub_role" onclick="filterSelection('H_H_K')"> Knock Healer</button>
   <button class="btn_sub_role" onclick="filterSelection('H_H_R')"> Root Healer</button>
@@ -97,23 +96,42 @@
   <button class="btn_sub_role" onclick="filterSelection('H_H_M')"> My-Own-Way Healer</button>   
 
      </div>
+            </div>
     
+    
+    <div class = "col_role">
+        <button class="btn_role"  id = "btn_role_H_o" 
+        onclick="filterSelection('H_o')"> (others)</button>
+        
        <div id="buttons_sub_role_H_o">
   <button class="btn_sub_role" onclick="filterSelection('H_o_a')"> (Abathur)</button>
      </div>
+    </div>
     
     
+        <div class = "col_role">
+             <button class="btn_role"  id = "btn_role_A_W" 
+        onclick="filterSelection('A_W')"> Warrior</button>
+            
          <div id="buttons_sub_role_A_W">
   <button class="btn_sub_role" onclick="filterSelection('A_W_T')"> Tank</button>
   <button class="btn_sub_role" onclick="filterSelection('A_W_B')"> Bruiser</button>
      </div>
+    </div>
     
+    
+    <div class = "col_role">
+         <button class="btn_role" id = "btn_role_A_o" 
+          onclick="filterSelection('A_o')"> (others)</button>
+            
      <div id="buttons_sub_role_A_o">
   <button class="btn_sub_role" onclick="filterSelection('A_o_C')"> Carry</button>
 <button class="btn_sub_role" onclick="filterSelection('A_o_H')"> Hit&Run</button>  
  <button class="btn_sub_role" onclick="filterSelection('A_o_S')"> Support</button>   
   <button class="btn_sub_role" onclick="filterSelection('A_o_r')"> (Rexxar)</button>     
      </div>
+        </div>
+    
     
     
 <!-- hide and show button 
