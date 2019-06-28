@@ -297,6 +297,13 @@ font-size: 15px;
     color: white;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .btn_role,   .btn_sub_role {
+       padding-top: 1.5vw;
+    padding-bottom:  1.7vw;
+    }
+}
+
 
 /* role information */
 .information_role {
