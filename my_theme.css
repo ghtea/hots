@@ -222,6 +222,8 @@ font-size: 15px;
 
 ."btn_role"  {
     width: 15%;
+    font-size: 20px;
+    padding: 10px;
 }
 
 #btn_role_D_K {
