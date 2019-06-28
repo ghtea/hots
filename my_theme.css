@@ -233,7 +233,7 @@ font-size: 15px;
     text-align: center;
     padding-top: 1vw;
     padding-bottom:  1vw;
-     font-size: 2.7vw;
+     font-size: 2.5vw;
     width: 33.3%;
 }
 
@@ -271,16 +271,22 @@ font-size: 15px;
 
 
 #btn_role_D_K,  #btn_role_D_D {
+    padding-top: 1vw;
+    padding-bottom:  1vw;
     background-color: #C5191C;
     color: white;
 }
 
 #btn_role_H_H,  #btn_role_H_o {
+    padding-top: 1vw;
+    padding-bottom:  1vw;
     background-color: #00BB6E;
     color: white;
 }
 
 #btn_role_A_W,  #btn_role_A_o {
+    padding-top: 1vw;
+    padding-bottom:  1vw;
     background-color: #1971D1;
     color: white;
 }
