@@ -223,6 +223,26 @@ font-size: 15px;
 
 /* for page 'role desc heroes */
 
+/*  top 3 columns    */
+
+
+
+
+#role_D, #role_H, #role_A {
+    float: left;
+    text-align: center;
+     font-size: 2.7vw;
+    width: 33.3%;
+}
+
+.tab_group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* 6 columns*/
 .col_role {
   float: left;
   width: 16.6%;
@@ -262,4 +282,7 @@ font-size: 15px;
     background-color: #1971D1;
     color: white;
 }
+
+
+
 
