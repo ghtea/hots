@@ -229,8 +229,16 @@ font-size: 15px;
 
 /*  top 3 columns    */
 
+/* make column  work*/
+.tab_group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 #role_D, #role_H, #role_A {
+    font-size: 22px;
     float: left;
     text-align: center;
     padding-top: 0.3vw;
@@ -251,12 +259,6 @@ font-size: 15px;
 }
 
 
-
-.tab_group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 
 /* 6 columns*/
@@ -293,6 +295,10 @@ font-size: 15px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
+    #role_D, #role_H, #role_A{
+        font-size: 3.1vw;
+    }
+    
     .btn_role,   .btn_sub_role {
         font-size: 2.8vw;
     }
