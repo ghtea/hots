@@ -221,10 +221,7 @@ font-size: 15px;
 
 
 
-.btn_role ,  .btn_sub_role  {
-    width: 16.6%;
-    text-align: center;
-}
+/* for page 'role desc heroes */
 
 .col_role {
   float: left;
@@ -239,4 +236,14 @@ font-size: 15px;
 }
 
 
+.btn_role ,  .btn_sub_role  {
+    width: 16.6%;
+    text-align: center;
+}
+
+
+.btn_role_D_K {
+    background-color: Red;
+    color: white;
+}
 
