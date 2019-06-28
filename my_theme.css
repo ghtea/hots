@@ -221,6 +221,10 @@ font-size: 15px;
 
 
 
+
+
+
+
 /* for page 'role desc heroes */
 
 /*  top 3 columns    */
@@ -233,6 +237,20 @@ font-size: 15px;
     padding-bottom:  0.3vw;
     width: 33.3%;
 }
+
+#role_D{
+    color: #C5191C;
+}
+
+#role_H {
+    color: #00BB6E;
+}
+
+#role_A {
+    color: #1971D1;
+}
+
+
 
 .tab_group:after {
   content: "";
@@ -281,6 +299,7 @@ font-size: 15px;
 }
 
 
+/* three  diffenrt colors  */
 #btn_role_D_K,  #btn_role_D_D {
     padding-top: 0.5vw;
     padding-bottom:  0.7vw;
