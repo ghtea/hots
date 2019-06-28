@@ -249,7 +249,17 @@ font-size: 15px;
 
 
 #btn_role_D_K,  #btn_role_D_D {
-    background-color: Red;
+    background-color: #C5191C;
+    color: white;
+}
+
+#btn_role_H_H,  #btn_role_H_o {
+    background-color: #00BB6E;
+    color: white;
+}
+
+#btn_role_D_K,  #btn_role_D_D {
+    background-color: #1971D1;
     color: white;
 }
 
