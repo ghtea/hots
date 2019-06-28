@@ -221,8 +221,8 @@ font-size: 15px;
 
 
 
-.btn_role   .btn_sub_role  {
-    width: 100px;
+.btn_role ,  .btn_sub_role  {
+    width: 16.6%;
     text-align: center;
 }
 
