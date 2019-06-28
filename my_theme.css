@@ -221,6 +221,10 @@ font-size: 15px;
 
 
 
+button.btn_role button.btn_sub_role {
+    width: 16.6%;
+}
+
 .col_role {
   float: left;
   width: 16.6%;
