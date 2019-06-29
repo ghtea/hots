@@ -22,7 +22,7 @@
   div.content {
   max-width: 800px;
   padding: 10;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -246,6 +246,13 @@ font-size: 15px;
     width: 33.3%;
 }
 
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    #role_D, #role_H, #role_A{
+        font-size: 5vw;
+    }
+}
+
 #role_D{
     color: #C5191C;
 }
@@ -295,9 +302,6 @@ font-size: 15px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
-    #role_D, #role_H, #role_A{
-        font-size: 3.1vw;
-    }
     
     .btn_role,   .btn_sub_role {
         font-size: 2.8vw;
