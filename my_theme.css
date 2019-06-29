@@ -308,7 +308,7 @@ font-size: 15px;
 }
 
 
-.btn_sub_role{
+.btn_sub_role, .btn_role{
     padding-top: 0.8vw;
     padding-bottom: 1vw;
 }
