@@ -308,7 +308,7 @@ font-size: 15px;
     font-size: 18px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 540px) {
     .btn_role,   .btn_sub_role {
         margin-top: 1vw;
         margin-bottom: 1vw;
