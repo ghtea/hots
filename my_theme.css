@@ -383,10 +383,14 @@ this make error in desk top...
 /* hero buttons */
 .btn_hero{
     background-size: 60px 60px;
+    border-radius: 6px;
     height: 60px;  
     width: 60px;
 }
 
+button.btn_hero:active {
+  border-style: outset;
+}
 
 #btn_Abathur {
     background-image: url( 'https://ghtea.github.io/hots/a/hero_portraits/60/Abathur.png' );
