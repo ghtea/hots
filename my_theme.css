@@ -388,7 +388,21 @@ this make error in desk top...
     height: 60px;  
     width: 60px;
     outline: none;
+    box-shadow: none;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 540px) {
+    .btn_hero {
+    background-size: 36px 36px;
+    border-radius: 6px;
+    margin:2px;
+    height: 36px;  
+    width: 36px;
+    outline: none;
+    box-shadow: none;
+    }
+}
+
 
 button.btn_hero:active {
   border-style: outset;
