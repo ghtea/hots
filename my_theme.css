@@ -384,8 +384,10 @@ this make error in desk top...
 .btn_hero{
     background-size: 60px 60px;
     border-radius: 6px;
+    margin:2px;
     height: 60px;  
     width: 60px;
+    outline: none;
 }
 
 button.btn_hero:active {
