@@ -271,9 +271,9 @@ font-size: 15px;
 /* 6 columns*/
 .col_role {
   float: left;
- margin-left:  0.83%;
- margin-right: 0.83%;
-  width: 15%;
+ margin-left:  0.75%;
+ margin-right: 0.75%;
+  width: 15.16%;
 }
 
 /* Clear floats after the columns */
@@ -285,12 +285,14 @@ font-size: 15px;
 
 /* main button */
 .btn_role,   .btn_sub_role  {
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
+    margin-top: 0.6vw;
+    margin-bottom: 0.6vw;
     
     padding-top: 0.5vw;
-    border-radius: 1vw;
     padding-bottom:  0.7vw;
+    padding-left:  0;
+    padding-right:  0;
+    border-radius: 1vw;
     background-color: #dddddd;
     border: none;
     text-decoration: none;
