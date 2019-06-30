@@ -286,11 +286,12 @@ font-size: 15px;
 
 /* main button */
 .btn_role,   .btn_sub_role  {
-    margin-top: 0.7vw;
-    margin-bottom: 0.7vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
-    padding-top: 0.6vw;
-    padding-bottom:  0.6vw;
+    padding-top: 10px;
+    padding-bottom:  10px;
+    
     padding-left:  0;
     padding-right:  0;
     
@@ -309,6 +310,12 @@ font-size: 15px;
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
     .btn_role,   .btn_sub_role {
+        margin-top: 0.7vw;
+        margin-bottom: 0.7vw;
+        
+        padding-top: 0.6vw;
+        padding-bottom:  0.6vw;
+        
         font-size: 3vw;
         border-radius: 5px;
     }
