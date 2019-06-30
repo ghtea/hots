@@ -310,11 +310,11 @@ font-size: 15px;
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     .btn_role,   .btn_sub_role {
-        margin-top: 0.7vw;
-        margin-bottom: 0.7vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
         
-        padding-top: 0.7vw;
-        padding-bottom:  0.7vw;
+        padding-top: 0.8vw;
+        padding-bottom:  0.8vw;
         
         font-size: 3vw;
         border-radius: 6px;
