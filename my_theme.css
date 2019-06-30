@@ -292,7 +292,9 @@ font-size: 15px;
     padding-bottom:  0.7vw;
     padding-left:  0;
     padding-right:  0;
-    border-radius: 1vw;
+    
+    border-radius: 5px;
+    
     background-color: #dddddd;
     border: none;
     text-decoration: none;
@@ -307,6 +309,7 @@ font-size: 15px;
 @media only screen and (min-width: 300px) and (max-width: 900px) {
     .btn_role,   .btn_sub_role {
         font-size: 3vw;
+        border-radius: 2px;
     }
 }
 
