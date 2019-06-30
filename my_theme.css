@@ -376,3 +376,18 @@ this make error in desk top...
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+
+
+/* hero buttons */
+.btn_hero{
+    background-size: 60px 60px;
+    height: 60px;  
+    width: 60px;
+}
+
+
+#btn_Abathur {
+    background-image: url( 'https://ghtea.github.io/hots/a/hero_portraits/60/Abathur.png' );
+}
