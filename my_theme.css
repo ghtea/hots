@@ -271,9 +271,9 @@ font-size: 15px;
 /* 6 columns*/
 .col_role {
   float: left;
- margin-left:  0.2vw;
- margin-right: 0.2vw;
-  width: 16%;
+ margin-left:  0.83%;
+ margin-right: 0.83%;
+  width: 15%;
 }
 
 /* Clear floats after the columns */
@@ -285,8 +285,9 @@ font-size: 15px;
 
 /* main button */
 .btn_role,   .btn_sub_role  {
-    margin-top: 0.4vw;
-    margin-bottom: 0.4vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    
     padding-top: 0.5vw;
     border-radius: 1vw;
     padding-bottom:  0.7vw;
