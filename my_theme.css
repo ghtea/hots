@@ -113,7 +113,7 @@ transition:border-top .1s, border-bottom .1s .1s;
 input.input_menu {display:none}
 
 /*show the second levele menu of the selected voice*/
-input.input_menu:checked ~  ul.submenu{
+input.input_menu:checked ~  ul.submenu:after{
 max-height:300px;
 transition:max-height 0.3s ease-in;
 }
