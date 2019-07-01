@@ -394,6 +394,7 @@ this make error in desk top...
     outline: none;
     box-shadow: none;
     border-style: solid;
+    box-sizing: border-box;
 }
 
 button.btn_g_DAMAGE{
