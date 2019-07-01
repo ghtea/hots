@@ -336,11 +336,11 @@ font-size: 15px;
     background-color: #C5191C;
 }
 
-#btn_role_H_H,  #btn_role_H_o {
+#btn_role_H_H {
     background-color: #00BB6E;
 }
 
-#btn_role_A_W,  #btn_role_A_o {
+#btn_role_A_T,  #btn_role_A_F, #btn_role_A_S {
     background-color: #1971D1;
 }
 
