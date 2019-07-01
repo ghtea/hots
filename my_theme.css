@@ -439,7 +439,7 @@ this make error in desk top...
 
 #btn_hero_filter_all {
     width:10%;
-    background-color: #ffffff;
+    background-color: #dddddd;
     color: #000000;
 }
 #btn_hero_filter_D{
@@ -451,11 +451,11 @@ this make error in desk top...
     background-color: #00BB6E;
 }
 #btn_hero_filter_A{
-    width:30%;
+    width:27%;
     background-color: #1971D1;
 }
-btn_hero_filter_S{
-    width:10%;
+#btn_hero_filter_S{
+    width:13%;
     background-color: #7D0CF4;
 }
 
