@@ -385,22 +385,22 @@ this make error in desk top...
 
 /* hero buttons */
 .btn_hero{
-    background-size: 60px 60px;
-    border-radius: 6px;
+    background-size: 50px 50px;
+    border-radius: 10px;
     margin:2px;
-    height: 60px;  
-    width: 60px;
+    height: 50px;  
+    width: 50px;
     outline: none;
     box-shadow: none;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 540px) {
     .btn_hero {
-    background-size: 36px 36px;
-    border-radius: 6px;
+    background-size: 35px 35px;
+    border-radius: 7px;
     margin:2px;
-    height: 36px;  
-    width: 36px;
+    height: 35px;  
+    width: 35px;
     outline: none;
     box-shadow: none;
     }
