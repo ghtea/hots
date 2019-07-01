@@ -393,21 +393,20 @@ this make error in desk top...
     width: 50px;
     outline: none;
     box-shadow: none;
-    border-style: solid;
-    box-sizing: border-box;
+    border: 6px solid #C5191C;
 }
 
 button.btn_g_DAMAGE{
-    border: 6px solid #C5191C !important;
+    border: 6px solid #C5191C ;
 }
 button.btn_g_HEAL{
-    border: 6px solid #00BB6E !important;
+    border: 6px solid #00BB6E ;
 }
 button.btn_g_ASSIST{
-    border: 6px solid #1971D1 !important;
+    border: 6px solid #1971D1 ;
 }
 button.btn_g_SPECIAL{
-    border: 6px solid #7D0CF4 !important;
+    border: 6px solid #7D0CF4 ;
 }
 
 
