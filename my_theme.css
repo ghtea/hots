@@ -475,16 +475,16 @@ this make error in desk top...
 }
 
 /* below 3 don't work why??? */
-button.btn_g_DAMAGE{
+.hero_g_D{
     border-color: #C5191C ;
 }
-button.btn_g_HEAL{
+.hero_g_H{
     border-color:  #00BB6E ;
 }
-button.btn_g_ASSIST{
+.hero_g_A{
     border-color:  #1971D1 ;
 }
-button.btn_g_SPECIAL{
+.hero_g_S{
     border-color:  #7D0CF4 ;
 }
 
