@@ -32,7 +32,8 @@ function toggle_visibility(id) {
 
 
 
-// for role page
+
+// for role page, hero page
 
 
 filterSelection("all")
