@@ -499,20 +499,8 @@ this make error in desk top...
     box-shadow: none;
     border-style: solid;
     background-size: contain;
-    border: 2px solid #C5191C;
+    border-width: 2px;
     }
-    .btn_g_DAMAGE{
-    border: 3px solid #C5191C;
-}
-    .btn_g_HEAL{
-    border: 3px solid #00BB6E;
-}
-    .btn_g_ASSIST{
-    border: 3px solid #1971D1;
-}
-    .btn_g_SPECIAL{
-    border: 3px solid #7D0CF4;
-}
     
 }
 
