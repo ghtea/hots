@@ -387,23 +387,67 @@ this make error in desk top...
 /* tap  */
 
 .btn_hero_filter{
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: #ffffff;
+    
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+    padding-top: 7px;
+    padding-bottom:  7px;
+    
+    padding-left:  0;
+    padding-right:  0;
+    
+    border-radius: 10px;
+    
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    display: block;
+     text-align: center;
+    
+    font-size: 18px;
 }
+@media only screen and (min-width: 300px) and (max-width: 540px) {
+   .btn_hero_filter {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        
+        padding-top: 0.8vw;
+        padding-bottom:  0.8vw;
+        
+        font-size: 2.8vw;
+        border-radius: 6px;
+    }
+}
+
+
+
 #btn_hero_filter_all {
     width:10%;
+    background-color: #ffffff;
+    color: #000000;
 }
 #btn_hero_filter_D{
     width:20%;
+    background-color: #C5191C;
 }
 #btn_hero_filter_H{
     width:20%;
+    background-color: #00BB6E;
+}
 }
 #btn_hero_filter_A{
     width:30%;
+    background-color: #1971D1;
+}
 }
 btn_hero_filter_S{
     width:10%;
+    background-color: #7D0CF4;
+}
 }
 
 
