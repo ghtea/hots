@@ -249,8 +249,11 @@ font-size: 15px;
     text-align: center;
     padding-top: 0.3vw;
     padding-bottom:  0.3vw;
-    width: 33.3%;
 }
+
+#role_D{ width: 33.3%;}
+#role_H{ width: 16.6%;}
+#role_A{ width: 50%;}
 
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
