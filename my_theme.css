@@ -386,6 +386,11 @@ this make error in desk top...
 /*  page hero */
 /* tap  */
 
+.btn_filter_group{
+    float: left;
+    cursor: pointer;
+}
+
 .btn_hero_filter{
     margin-left: 0.5%;
     margin-right: 0.5%;
