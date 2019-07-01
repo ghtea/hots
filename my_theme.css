@@ -453,8 +453,8 @@ this make error in desk top...
         margin-top: 1vw;
         margin-bottom: 1vw;
         
-        padding-top: 0.8vw;
-        padding-bottom:  0.8vw;
+        padding-top: 1vw;
+        padding-bottom:  1vw;
         
         font-size: 2.8vw;
         border-radius: 6px;
@@ -463,13 +463,9 @@ this make error in desk top...
 
 
 
-#btn_hero_filter_all {
-    width:10%;
-    background-color: #dddddd;
-    color: #000000;
-}
+
 #btn_hero_filter_D{
-    width:20%;
+    width:30%;
     background-color: #C5191C;
 }
 #btn_hero_filter_H{
@@ -477,11 +473,11 @@ this make error in desk top...
     background-color: #00BB6E;
 }
 #btn_hero_filter_A{
-    width:27%;
+    width:30%;
     background-color: #1971D1;
 }
 #btn_hero_filter_S{
-    width:13%;
+    width:20%;
     background-color: #7D0CF4;
 }
 
