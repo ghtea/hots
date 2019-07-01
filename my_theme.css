@@ -464,12 +464,12 @@ this make error in desk top...
 .btn_hero{
     /*background-size: 60px 60px;*/
     border-radius: 10px;
-    margin:2px;
+    margin:3px;
     height: 50px;  
     width: 50px;
     outline: none;
     box-shadow: none;
-    border: 3px solid #C5191C;
+    border: 2px solid #C5191C;
     background-size: contain;
 }
 
