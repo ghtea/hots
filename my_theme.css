@@ -396,16 +396,16 @@ this make error in desk top...
     border-style: solid;
 }
 
-.btn_g_DAMAGE{
+button.btn_g_DAMAGE{
     border: 6px solid #C5191C;
 }
-.btn_g_HEAL{
+button.btn_g_HEAL{
     border: 6px solid #00BB6E;
 }
-.btn_g_ASSIST{
+button.btn_g_ASSIST{
     border: 6px solid #1971D1;
 }
-.btn_g_SPECIAL{
+button.btn_g_SPECIAL{
     border: 6px solid #7D0CF4;
 }
 
