@@ -383,6 +383,29 @@ this make error in desk top...
 
 
 
+/*  page hero */
+/* tap  */
+
+.btn_hero_filter{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#btn_hero_filter_all {
+    width:10%;
+}
+#btn_hero_filter_D{
+    width:20%;
+}
+#btn_hero_filter_H{
+    width:20%;
+}
+#btn_hero_filter_A{
+    width:30%;
+}
+btn_hero_filter_S{
+    width:10%;
+}
+
 
 /* hero buttons */
 .btn_hero{
