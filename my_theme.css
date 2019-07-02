@@ -595,10 +595,10 @@ margin-bottom: 0px;
 }
 
 .container_h1 h1 {
-          position: relative;
-          top: 24px;
-          margin-bottom: 24px;
-          left: 6px;
+        position: absolute;
+        top: 0px;
+        margin-bottom: 0px;
+        left: 0px;
         }
 }
 
