@@ -484,19 +484,19 @@ this make error in desk top...
 
 /* role colors  */
 #btn_hero_filter_D{
-    width:27%;
+    width:25%;
     background-image: linear-gradient(to bottom right, #A443B1, #FC0366);
 }
 #btn_hero_filter_H{
-    width:18%;
-    background-image: linear-gradient(to bottom right, #00ABDB, #92fe9d);
+    width:21%;
+    background-image: linear-gradient(to bottom right, #00986E, #38F9D6);
 }
 #btn_hero_filter_A{
-    width:27%;
+    width:25%;
     background-image: linear-gradient(to bottom right, #0158EC,#00c6fb);
 }
 #btn_hero_filter_S{
-    width:20%;
+    width:21%;
     background-image: linear-gradient(to bottom right, #fc6076, #FFB24C);
 }
 
