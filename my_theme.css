@@ -100,7 +100,7 @@ label.label_menu:hover{ cursor: pointer; }
 
 input.input_menu:checked ~ label{
     /* main gradient !!! */
-    background-image: linear-gradient(to bottom right, #5957FF, #b224ef);
+    background-image: linear-gradient(to bottom right, #503CFD, #b224ef);
 }
 
 input.input_menu:checked ~ label:after{
