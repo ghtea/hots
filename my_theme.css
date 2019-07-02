@@ -376,7 +376,7 @@ this make error in desk top...
 
 /* heroes in this role, simialr heroes */
 div.I, div.A, div.B, div.C, div.D, div.E, div.F{
-    display: inline-block 
+    display: inline-block ;
 }
 
 .image_hero {
