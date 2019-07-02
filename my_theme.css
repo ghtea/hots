@@ -560,29 +560,35 @@ div.I, div.A, div.B, div.C, div.D, div.E, div.F{
 }
 
 div.I::before { 
-  content: "";
+  content: "I";
   background-color: black;}
 
 div.A::before { 
-  content: "";
+  content: "A";
+  color: #ffffff;
   background-color: deepskyblue;}
 
 div.B::before { 
-  content: "";
+  content: "B";
+  color: #ffffff;    
   background-color: greenyellow;}
 
 div.C::before { 
-  content: "";
+  content: "C";
+  color: #ffffff;    
   background-color: palegreen;}
 
 div.D::before { 
-  content: "";
+  content: "D";
+  color: #ffffff;    
   background-color: yellow;}
 
 div.E::before { 
-  content: "";
+  content: "E";
+  color: #ffffff;    
   background-color: orange;}
 
 div.F::before { 
-  content: "";
+  content: "F";
+  color: #ffffff;    
   background-color: red;}
