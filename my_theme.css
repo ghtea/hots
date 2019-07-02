@@ -619,7 +619,7 @@ div.C::before {
   border-radius: 4px;
   padding:2px;
   color: #ffffff;    
-  background-color: yellow;}
+  background-color: orange;}
 
 div.D::before { 
   content: "D";
@@ -628,7 +628,7 @@ div.D::before {
   border-radius: 4px;    
   padding:2px;
   color: #ffffff;    
-  background-color: darkorange;}
+  background-color:orangered;}
 
 div.E::before { 
   content: "E";
