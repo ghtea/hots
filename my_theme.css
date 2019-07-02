@@ -565,7 +565,7 @@ h1.h1_hero_info{
 .image_hero_big{
      border-radius: 22px;
     margin-left:5px;
-    margin-top: 0px;
+    margin-bottom: 0px;
 
     width: 110px;
     height: 110px;
