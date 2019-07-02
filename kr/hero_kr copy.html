@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- css  by mbcat  -->
+  <link rel="stylesheet" href="https://ghtea.github.io/hots/my_theme.css">
+    
+ <script src="https://ghtea.github.io/hots/jquery.js"></script>
+ 
+  <!-- javascript  by mbcat  -->    
+<script src="https://ghtea.github.io/hots/my_javascript.js"></script>
+
+<meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- 1st boundary -->
+
+
+<!-- scripts from others -->
+<!-- DT table hover line
+    delete
+    table.dataTable.display tbody tr:hover{background-color:
+    
+    full delete 
+    table.dataTable.hover tbody tr:hover,table.dataTable.display tbody tr:hover{background-color:     ~~~}
+
+-->
+<!-- DT table basic every 2nds  line
+    table.dataTable.display tbody tr.odd{background-color:#f9f9f9
+    didn't change yet, just memo for future change
+
+-->
+
+
+<!-- content  -->
+
+<title> 영웅 </title>
+</head>
+<body>
+    
+<!-- menu -->
+<div id="menu_div_kr"></div>
+
+<!--    don't forget    </div> later in this file   -->
+<div class="content">
+
+   <div class="btn_filter_group">
+  
+         <button class="btn_hero_filter  active"   id = "btn_hero_filter_D" 
+          onclick="filterSelection('hero_g_D')"> DAMAGE</button>
+          
+        <button class="btn_hero_filter"   id = "btn_hero_filter_H" 
+          onclick="filterSelection('hero_g_H')"> HEAL</button>
+    
+        <button class="btn_hero_filter"   id = "btn_hero_filter_A" 
+          onclick="filterSelection('hero_g_A')"> ASSIST</button>
+        
+        <button class="btn_hero_filter"   id = "btn_hero_filter_S" 
+          onclick="filterSelection('hero_g_S')"> SPECIAL</button>  
+    </div>
+        
+<div>    
+<button id="btn_Alarak" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Alarak')"> </button> <button id="btn_Azmodan" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Azmodan')"> </button> <button id="btn_Cassia" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Cassia')"> </button> <button id="btn_Chromie" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Chromie')"> </button> <button id="btn_Falstad" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Falstad')"> </button> <button id="btn_Fenix" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Fenix')"> </button> <button id="btn_Gazlowe" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Gazlowe')"> </button> <button id="btn_Genji" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Genji')"> </button> <button id="btn_Greymane" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Greymane')"> </button> <button id="btn_Gul_dan" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Gul_dan')"> </button> <button id="btn_Hanzo" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Hanzo')"> </button> <button id="btn_Jaina" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Jaina')"> </button> <button id="btn_Junkrat" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Junkrat')"> </button> <button id="btn_Kael_thas" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Kael_thas')"> </button> <button id="btn_Kel_Thuzad" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Kel_Thuzad')"> </button> <button id="btn_Li_Ming" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Li_Ming')"> </button> <button id="btn_Lunara" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Lunara')"> </button> <button id="btn_Maiev" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Maiev')"> </button> <button id="btn_Mephisto" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Mephisto')"> </button> <button id="btn_Nazeebo" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Nazeebo')"> </button> <button id="btn_Nova" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Nova')"> </button> <button id="btn_Orphea" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Orphea')"> </button> <button id="btn_Probius" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Probius')"> </button> <button id="btn_Ragnaros" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Ragnaros')"> </button> <button id="btn_Raynor" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Raynor')"> </button> <button id="btn_Sgt_Hammer" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Sgt_Hammer')"> </button> <button id="btn_Sylvanas" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Sylvanas')"> </button> <button id="btn_Tracer" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Tracer')"> </button> <button id="btn_Tychus" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Tychus')"> </button> <button id="btn_Valeera" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Valeera')"> </button> <button id="btn_Valla" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Valla')"> </button> <button id="btn_Xul" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Xul')"> </button> <button id="btn_Zagara" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Zagara')"> </button> <button id="btn_Zeratul" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Zeratul')"> </button> <button id="btn_Zul_jin" class="btn_hero filterDiv hero_g_D" onclick="filterSelection('Zul_jin')"> </button> <button id="btn_Alexstrasza" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Alexstrasza')"> </button> <button id="btn_Ana" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Ana')"> </button> <button id="btn_Anduin" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Anduin')"> </button> <button id="btn_Auriel" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Auriel')"> </button> <button id="btn_Brightwing" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Brightwing')"> </button> <button id="btn_Deckard" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Deckard')"> </button> <button id="btn_Kharazim" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Kharazim')"> </button> <button id="btn_Li_Li" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Li_Li')"> </button> <button id="btn_Lt_Morales" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Lt_Morales')"> </button> <button id="btn_Lucio" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Lucio')"> </button> <button id="btn_Malfurion" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Malfurion')"> </button> <button id="btn_Rehgar" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Rehgar')"> </button> <button id="btn_Stukov" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Stukov')"> </button> <button id="btn_Tyrande" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Tyrande')"> </button> <button id="btn_Uther" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Uther')"> </button> <button id="btn_Whitemane" class="btn_hero filterDiv hero_g_H" onclick="filterSelection('Whitemane')"> </button> <button id="btn_Anub_arak" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Anub_arak')"> </button> <button id="btn_Artanis" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Artanis')"> </button> <button id="btn_Arthas" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Arthas')"> </button> <button id="btn_Blaze" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Blaze')"> </button> <button id="btn_Chen" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Chen')"> </button> <button id="btn_D_Va" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('D_Va')"> </button> <button id="btn_Dehaka" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Dehaka')"> </button> <button id="btn_Diablo" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Diablo')"> </button> <button id="btn_E_T_C_" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('E_T_C_')"> </button> <button id="btn_Garrosh" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Garrosh')"> </button> <button id="btn_Illidan" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Illidan')"> </button> <button id="btn_Imperius" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Imperius')"> </button> <button id="btn_Johanna" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Johanna')"> </button> <button id="btn_Kerrigan" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Kerrigan')"> </button> <button id="btn_Leoric" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Leoric')"> </button> <button id="btn_Mal_Ganis" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Mal_Ganis')"> </button> <button id="btn_Malthael" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Malthael')"> </button> <button id="btn_Medivh" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Medivh')"> </button> <button id="btn_Muradin" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Muradin')"> </button> <button id="btn_Murky" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Murky')"> </button> <button id="btn_Samuro" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Samuro')"> </button> <button id="btn_Sonya" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Sonya')"> </button> <button id="btn_Stitches" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Stitches')"> </button> <button id="btn_Tassadar" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Tassadar')"> </button> <button id="btn_The_Butcher" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('The_Butcher')"> </button> <button id="btn_Thrall" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Thrall')"> </button> <button id="btn_Tyrael" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Tyrael')"> </button> <button id="btn_Varian" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Varian')"> </button> <button id="btn_Yrel" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Yrel')"> </button> <button id="btn_Zarya" class="btn_hero filterDiv hero_g_A" onclick="filterSelection('Zarya')"> </button> <button id="btn_Abathur" class="btn_hero filterDiv hero_g_S"  onclick="filterSelection('Abathur')"> </button> <button id="btn_Cho" class="btn_hero filterDiv hero_g_S"  onclick="filterSelection('Cho')"> </button> <button id="btn_Gall" class="btn_hero filterDiv hero_g_S"  onclick="filterSelection('Gall')"> </button> <button id="btn_Rexxar" class="btn_hero filterDiv hero_g_S"  onclick="filterSelection('Rexxar')"> </button> <button id="btn_The_Lost_Vikings" class="btn_hero filterDiv hero_g_S"  onclick="filterSelection('The_Lost_Vikings')"> </button>
+</div>
+    
+    
+    
+    <div class="information_role">
+
+        
+        <div class ="filterDiv Alarak">
+            <h1> <img class= "image_hero_big" src="https://ghtea.github.io/hots/a/hero_portraits/152/Azmodan.png" alt="아즈모단" title="아즈모단">
+                Alarak</h1>
+            <ul><li>역할: HEAL/Healer/Silence Healer</li>
+                <li class="talking">"역할 설명"</li>
+                <li class="talking"> "영웅 묘사" </li>
+                <li>개성 순위: <strong>3위</strong> /83명 (초, 갈, 길 잃은 바이킹 제외)</li></ul>
+        
+        <h3>가장 비슷한 영웅 10명</h3>
+            <img class= "image_hero   sm_quite_similar" src="https://ghtea.github.io/hots/a/hero_portraits/60/Azmodan.png" alt="아즈모단" title="아즈모단"> 
+        <img class= "image_hero   sm_quite_similar" src="https://ghtea.github.io/hots/a/hero_portraits/60/Gul_dan.png" alt="굴단" title="굴단">
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        </div>
+        
+    
+    
+    
+<!-- hide and show button 
+<a href="#" onclick="toggle_visibility( 'show1' );" class = "show_hide_content_div">
+   Show/Hide </a>
+    
+<div id="show1">  
+    Details ~~~~  
+</div>
+-->
+    
+
+
+<!-- 2 div sets for one widget 
+
+example
+
+ <div id="htmlwidget_container">
+ <div id="htmlwidget-cf7310461779ec0ed371" class="datatables html-widget">
+</div>
+</div>
+-->
+
+    
+<!-- 2 script sets for one widget 
+
+1. adjust  2nd script ,  "width":"100%","padding":0
+                    ~"browser":{"width":"100%","padding":0,"fill":false}
+
+    especially don't forget "padding":0 !!!
+
+2. adjust   1st script,  delete information about width & height or just keep
+
+3. (DT) add    class="table_box"   to    <div id="htmlwidget_container"  > 
+
+example
+
+<script type="application/json" data-for="htmlwidget-45e6f3c5b996bae5e0b8">~~</script>
+
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-45e6f3c5b996bae5e0b8">
+{"viewer":{"width":450,"height":350,"padding":15,"fill":true},
+"browser":{"width":"100%","padding":0,"fill":false}
+}
+</script>
+
+-->
+    
+<!-- when only change table/graph data
+
+replace 
+<script type="application/json" data-for="htmlwidget-69c4e57fe6565ec35cf2"> 
+~~~~ 
+</script>
+
+by new one, and 
+
+only replce     htmlwidget-69c~~~~     
+
+fromt next    
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-69c4e57fe6565ec35cf2"> 
+
+and previous 
+<div id="htmlwidget-69c4e57fe6565ec35cf2" class="rbokeh html-widget" style="width:800px;height:500px;"> 
+
+
+-->
+
+</div>
+</body>
+</html>
