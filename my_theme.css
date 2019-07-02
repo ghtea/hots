@@ -587,7 +587,7 @@ button.btn_hero:active {
 }
 
 div.sm_degree{
-    float: left;
+    display: inline-block;
 }
 
 div.sm_degree_I::before { 
