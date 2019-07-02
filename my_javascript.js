@@ -36,7 +36,7 @@ function toggle_visibility(id) {
 // for role page, hero page
 
 
-filterSelection("all")
+filterSelection("default")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterDiv");
