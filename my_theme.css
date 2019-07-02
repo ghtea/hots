@@ -619,7 +619,7 @@ div.sm_degree_I::before , div.sm_degree_A::before , div.sm_degree_B::before, div
 {
   width: 18px; height: 18px; border-radius: 6px;
   padding-top:3px; padding-left: 1px; padding-right: 1px;
-  margin-bottom: 3px; 
+  margin-bottom: 4px; 
   color: #ffffff;
   display: inline-block ;
 }
