@@ -591,8 +591,8 @@ div.B::before {
   height: 8px;
   border-radius: 4px;
   padding:2px;
-  color: darkgreen;
-  background-color: greenyellow;}
+  color: #ffffff;
+  background-color: limegreen;}
 
 div.C::before { 
   content: "C";
@@ -601,7 +601,7 @@ div.C::before {
   border-radius: 4px;
   padding:2px;
   color: #ffffff;    
-  background-color: palegreen;}
+  background-color: yellow;}
 
 div.D::before { 
   content: "D";
@@ -610,7 +610,7 @@ div.D::before {
   border-radius: 4px;    
   padding:2px;
   color: #ffffff;    
-  background-color: yellow;}
+  background-color: grey;}
 
 div.E::before { 
   content: "E";
