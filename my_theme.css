@@ -571,7 +571,7 @@ h1.h1_hero_info{
     height: 110px;
     
     position: relative;
-    left: 100px;
+    left: 180px;
 }
 
 
@@ -586,7 +586,7 @@ h1.h1_hero_info{
         width: 66px;
         
         position: relative;
-        left: 100px;
+        left: 180px;
     }
 }
 
@@ -595,28 +595,25 @@ div.I, div.A, div.B, div.C, div.D, div.E, div.F{
     margin-bottom: 2px;
 }
 
+div.text_degree::before{
+    width: 8px;
+  height: 8px;
+  border-radius: 4px;
+    padding-top:2px;
+  margin-bottom: 3px; 
+  color: #ffffff;
+}
+
 div.I::before { 
   content: "I";
-  padding:2px;
-  color: #000000;
   background-color: white;}
 
 div.A::before { 
   content: "A";
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
-  padding:2px;  
-  color: #ffffff;
   background-color: royalblue;}
 
 div.B::before { 
   content: "B";
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
-  padding:2px;
-  color: #ffffff;
   background-color: limegreen;}
 
 div.C::before { 
@@ -624,7 +621,8 @@ div.C::before {
   width: 8px;
   height: 8px;
   border-radius: 4px;
-  padding:2px;
+    padding-top:2px;
+  margin-bottom: 3px;
   color: #ffffff;    
   background-color: orange;}
 
@@ -633,7 +631,8 @@ div.D::before {
   width: 8px;
   height: 8px;
   border-radius: 4px;    
-  padding:2px;
+    padding-top:2px;
+  margin-bottom: 3px;
   color: #ffffff;    
   background-color:orangered;}
 
@@ -642,7 +641,8 @@ div.E::before {
   width: 8px;
   height: 8px;
   border-radius: 4px;    
-  padding:2px;
+    padding-top:2px;
+  margin-bottom: 3px;
   color: #ffffff;    
   background-color: darkred;}
 
@@ -651,6 +651,7 @@ div.F::before {
   width: 8px;
   height: 8px;
   border-radius: 4px;
-  padding:2px;
+    padding-top:2px;
+  margin-bottom: 3px;
   color: #ffffff;    
   background-color: black;}
