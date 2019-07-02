@@ -585,7 +585,7 @@ h1.h1_hero_info{
     }
 }
 
-div.I, div.A, div.B, div.C, div.D, div.E, div.F{
+div.sm_degree{
     display: inline-block ;
     margin-bottom: 2px;
 }
