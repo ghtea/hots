@@ -100,7 +100,7 @@ label.label_menu:hover{ cursor: pointer; }
 
 input.input_menu:checked ~ label{
     /* main gradient !!! */
-    background-image: linear-gradient(to bottom right, #7B1FA2, #1A237E);
+    background-image: linear-gradient(to bottom right, #7579ff, #b224ef);
 }
 
 input.input_menu:checked ~ label:after{
@@ -489,11 +489,11 @@ this make error in desk top...
 }
 #btn_hero_filter_H{
     width:18%;
-    background-image: linear-gradient(to bottom right, #00e3ae, #8ddad5);
+    background-image: linear-gradient(to bottom right, #92fe9d, #00c9ff);
 }
 #btn_hero_filter_A{
     width:27%;
-    background-image: linear-gradient(to bottom right,#0acffe, #495aff);
+    background-image: linear-gradient(to bottom right,#00c6fb, #005bea);
 }
 #btn_hero_filter_S{
     width:20%;
