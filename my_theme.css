@@ -586,6 +586,9 @@ button.btn_hero:active {
     }
 }
 
+div.sm_degree{
+    float: left;
+}
 
 div.sm_degree_I::before { 
   content: "I";
@@ -621,7 +624,6 @@ div.sm_degree_I::before , div.sm_degree_A::before , div.sm_degree_B::before, div
   text-align: center;
   margin-bottom: 4px; 
   color: #ffffff;
-  float: left;
 }
 
 div.sm_degree.image_hero{
