@@ -587,7 +587,6 @@ h1.h1_hero_info{
 
 div.sm_degree{
     display: inline-block ;
-    margin-bottom: 2px;
 }
 
 div.sm_degree::before{
@@ -605,26 +604,26 @@ div.sm_degree_I::before {
   content: "I";
   background-color: white;}
 
-div.sm_degree_IA::before { 
+div.sm_degree_A::before { 
   content: "A";
   background-color: royalblue;}
 
-div.sm_degree_IB::before { 
+div.sm_degree_B::before { 
   content: "B";
   background-color: limegreen;}
 
-div.sm_degree_IC::before { 
+div.sm_degree_C::before { 
   content: "C";
   background-color: orange;}
 
-div.sm_degree_ID::before { 
+div.sm_degree_D::before { 
   content: "D";
   background-color:orangered;}
 
-div.sm_degree_IE::before { 
+div.sm_degree_E::before { 
   content: "E";
   background-color: darkred;}
 
-div.sm_degree_IF::before { 
+div.sm_degree_F::before { 
   content: "F";
   background-color: black;}
