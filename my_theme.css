@@ -571,7 +571,7 @@ h1.h1_hero_info{
     height: 110px;
     
     position: relative;
-    left: 300px;
+    left: 100px;
 }
 
 
@@ -586,7 +586,7 @@ h1.h1_hero_info{
         width: 66px;
         
         position: relative;
-         right: 5px;
+        left: 100px;
     }
 }
 
