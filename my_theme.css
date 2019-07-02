@@ -592,6 +592,7 @@ margin-bottom: 0px;
 
          width: 66px;
           height: 66px;
+       float: none;
 }
 
 .container_h1 h1 {
