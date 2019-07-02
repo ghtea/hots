@@ -73,6 +73,8 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
+
+//maybe I dont use this? or only for role page
 // Add active class to the current control button (highlight it)
 var btnContainer = document.getElementById("col_role_entire");
 var btns = btnContainer.getElementsByClassName("btn_sub_role");

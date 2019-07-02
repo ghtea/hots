@@ -598,6 +598,7 @@ div.sm_degree::before{
    padding-left: 1px;
     padding-right: 1px;
   margin-bottom: 3px; 
+    display: inline-block ;
   color: #ffffff;
 }
 
