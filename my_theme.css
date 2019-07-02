@@ -122,7 +122,6 @@ display: block;
 /*style for the second level menu*/
 ul.submenu{
 /*max-height:0; */
-z-index:4;    
 display: none;
 padding:0;
 overflow:hidden;
@@ -174,7 +173,7 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 h1, h2, h3, h4, h5 {
 color:black;
 }
-h1 { font-size: 2em; margin: 0.55em 5px }
+h1 { font-size: 2em; margin: 0.55em 5px;  z-index: -1;    }
 h2 { font-size: 1.5em; margin: 0.6em 5px }
 h3 {font-size: 1.17em; margin: 0.33em 5px}
 
