@@ -632,7 +632,8 @@ div.sm_degree_F::before {
 
 div.sm_degree_I::before , div.sm_degree_A::before , div.sm_degree_B::before, div.sm_degree_C::before, div.sm_degree_D::before, div.sm_degree_E::before, div.sm_degree_F::before
 {
-  width: 18px; height: 18px; border-radius: 6px;
+  height: 18px; border-radius: 6px;
+  padding-top: 2px; padding-bottom: 1px; padding-left: 1px; padding-right: 1px;
   text-align: center;
   margin-bottom: 4px; 
   color: #ffffff;
