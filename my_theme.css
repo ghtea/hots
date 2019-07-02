@@ -444,8 +444,8 @@ this make error in desk top...
 
 
 .btn_hero_filter{
-    margin-left: 0.6%;
-    margin-right: 0.6%;
+    margin-left: 0.7%;
+    margin-right: 0.7%;
     color: #ffffff;
     
     margin-bottom: 8px;
@@ -482,7 +482,7 @@ this make error in desk top...
 
 
 
-
+/* role colors  */
 #btn_hero_filter_D{
     width:27%;
     background-image: linear-gradient(to bottom right, #A443B1, #FC0366);
