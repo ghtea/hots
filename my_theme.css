@@ -595,7 +595,7 @@ margin-bottom: 0px;
 }
 
 .container_h1 h1 {
-        position: absolute;
+        position: relative;
         top: 0px;
         margin-bottom: 0px;
         left: 0px;
