@@ -596,24 +596,36 @@ div.B::before {
 
 div.C::before { 
   content: "C";
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
   padding:2px;
   color: #ffffff;    
   background-color: palegreen;}
 
 div.D::before { 
   content: "D";
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;    
   padding:2px;
   color: #ffffff;    
   background-color: yellow;}
 
 div.E::before { 
   content: "E";
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;    
   padding:2px;
   color: #ffffff;    
-  background-color: orange;}
+  background-color: darkorange;}
 
 div.F::before { 
   content: "F";
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
   padding:2px;
   color: #ffffff;    
-  background-color: red;}
+  background-color: darkred;}
