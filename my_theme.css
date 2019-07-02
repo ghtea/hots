@@ -580,17 +580,21 @@ margin-bottom: 0px;
 
 
 @media only screen and (min-width: 300px) and (max-width: 540px) {
-    .image_hero_big {
+   .container_h1 img {
+
         border-radius: 13px;
         margin-left:2px;
         margin-bottom: 0px;
-        
-        height: 66px;  
-        width: 66px;
-        
-        position: relative;
-        left: 100px;
-    }
+
+         width: 66px;
+          height: 66px;
+}
+
+.container_h1 h1 {
+          position: relative;
+          top: 12px;
+          left: 6px;
+        }
 }
 
 
