@@ -489,11 +489,11 @@ this make error in desk top...
 }
 #btn_hero_filter_H{
     width:18%;
-    background-color: #00BB6E;
+    background-image: linear-gradient(to bottom right, #00e3ae, #8ddad5);
 }
 #btn_hero_filter_A{
     width:27%;
-    background-image: linear-gradient(to bottom right,
+    background-image: linear-gradient(to bottom right,#0acffe, #495aff);
 }
 #btn_hero_filter_S{
     width:20%;
