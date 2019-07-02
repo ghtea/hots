@@ -643,3 +643,7 @@ div.container_similar_heroes > div {
     float:left;
 }
 
+div.container_similar_heroes > div > img {
+    position: relative;
+    top:3px;
+}
