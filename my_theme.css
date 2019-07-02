@@ -449,8 +449,7 @@ this make error in desk top...
     margin-top: 8px;
     margin-bottom: 8px;
     
-    padding-top: 7px;
-    padding-bottom:  7px;
+    height:20px;
     
     padding-left:  0;
     padding-right:  0;
@@ -473,10 +472,10 @@ this make error in desk top...
         margin-top: 1vw;
         margin-bottom: 1vw;
         
-        padding-top: 1vw;
-        padding-bottom:  1vw;
+        height: 10px;
         
-        font-size: 2.8vw;
+        font-size:12px;
+       
         border-radius: 6px;
     }
 }
