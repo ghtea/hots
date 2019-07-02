@@ -558,16 +558,23 @@ button.btn_hero:active {
     right: 0px;
 }*/
 
-.image_hero_big{
-     border-radius: 22px;
-    margin-left:5px;
-    margin-bottom: 0px;
 
-    width: 110px;
-    height: 110px;
+.container_h1 img {
+  float: left;
     
-    position: relative;
-    left: 180px;
+border-radius: 22px;
+margin-left:5px;
+margin-bottom: 0px;
+
+ width: 110px;
+  height: 110px;
+
+}
+
+.container_h1 h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
 
 
