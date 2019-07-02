@@ -375,12 +375,15 @@ this make error in desk top...
 */
 
 /* heroes in this role, simialr heroes */
+div.I, div.A, div.B, div.C, div.D, div.E, div.F{
+    display: inline-block 
+}
+
 .image_hero {
     border-radius: 10px;
     margin:2px;
     height: 50px;  
     width: 50px;
-    display: inline-block 
 }
 
 @media only screen and (min-width: 300px) and (max-width: 540px) {
