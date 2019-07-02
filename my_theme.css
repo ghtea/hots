@@ -599,6 +599,7 @@ margin-bottom: 0px;
 
 
 
+
 div.sm_degree_I::before { 
   content: "I";
   background-color: white;}
@@ -635,11 +636,7 @@ div.sm_degree_I::before , div.sm_degree_A::before , div.sm_degree_B::before, div
   color: #ffffff;
 }
 
-div.sm_degree{
-    display: inline-block;
+div.container_similar_heroes > div {
+    float:left;
 }
 
-div.sm_degree.image_hero{
-    position: relative;
-    bottom: 2px;
-}
