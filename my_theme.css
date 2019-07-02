@@ -591,8 +591,8 @@ div.I, div.A, div.B, div.C, div.D, div.E, div.F{
 div.I::before { 
   content: "I";
   padding:2px;
-  color: #ffffff;
-  background-color: black;}
+  color: #000000;
+  background-color: white;}
 
 div.A::before { 
   content: "A";
@@ -628,7 +628,7 @@ div.D::before {
   border-radius: 4px;    
   padding:2px;
   color: #ffffff;    
-  background-color: grey;}
+  background-color: darkorange;}
 
 div.E::before { 
   content: "E";
@@ -637,7 +637,7 @@ div.E::before {
   border-radius: 4px;    
   padding:2px;
   color: #ffffff;    
-  background-color: darkorange;}
+  background-color: darkred;}
 
 div.F::before { 
   content: "F";
@@ -646,4 +646,4 @@ div.F::before {
   border-radius: 4px;
   padding:2px;
   color: #ffffff;    
-  background-color: darkred;}
+  background-color: black;}
