@@ -489,7 +489,7 @@ this make error in desk top...
 }
 #btn_hero_filter_H{
     width:18%;
-    background-image: linear-gradient(to bottom right, #00C549, #00c9ff);
+    background-image: linear-gradient(to bottom right, #00B91B, #00c9ff);
 }
 #btn_hero_filter_A{
     width:27%;
@@ -515,18 +515,19 @@ this make error in desk top...
     background-size: contain;
 }
 
-/* below 3 don't work why??? */
+
+/*   role border colors (using brighter color of gradient)   role colors */
 .hero_g_D{
-    border-color: #C5191C ;
+    border-color: #FC0366 ;
 }
 .hero_g_H{
-    border-color:  #00BB6E ;
+    border-color:  #00c9ff ;
 }
 .hero_g_A{
-    border-color:  #1971D1 ;
+    border-color:  #00c6fb ;
 }
 .hero_g_S{
-    border-color:  #7D0CF4 ;
+    border-color:  #FFB24C ;
 }
 
 
