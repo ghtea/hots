@@ -572,34 +572,48 @@ div.I, div.A, div.B, div.C, div.D, div.E, div.F{
 
 div.I::before { 
   content: "I";
+  padding:2px;
+  color: #ffffff;
   background-color: black;}
 
 div.A::before { 
   content: "A";
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  padding:2px;  
   color: #ffffff;
-  background-color: deepskyblue;}
+  background-color: royalblue;}
 
 div.B::before { 
   content: "B";
-  color: #ffffff;    
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  padding:2px;
+  color: darkgreen;
   background-color: greenyellow;}
 
 div.C::before { 
   content: "C";
+  padding:2px;
   color: #ffffff;    
   background-color: palegreen;}
 
 div.D::before { 
   content: "D";
+  padding:2px;
   color: #ffffff;    
   background-color: yellow;}
 
 div.E::before { 
   content: "E";
+  padding:2px;
   color: #ffffff;    
   background-color: orange;}
 
 div.F::before { 
   content: "F";
+  padding:2px;
   color: #ffffff;    
   background-color: red;}
