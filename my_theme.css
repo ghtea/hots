@@ -153,6 +153,7 @@ background:#ddd;
 
 /* basic, theme by mbcat */
 /*
+default
 h1              { font-size: 2em; margin: .67em 0 }
 h2              { font-size: 1.5em; margin: .75em 0 }
 h3              { font-size: 1.17em; margin: .83em 0 }
@@ -170,10 +171,9 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 h1, h2, h3, h4, h5 {
 color:black;
 }
-
-h3 {
-    font-size: 1.17em; margin: 0.4em 0
-}
+h1 { font-size: 2em; margin: 0.55em 0 }
+h2 { font-size: 1.5em; margin: 0.6em 0 }
+h3 {font-size: 1.17em; margin: 0.4em 0}
 
 strong {
     background-color: #FFFDC2;
