@@ -375,9 +375,6 @@ this make error in desk top...
 */
 
 /* heroes in this role, simialr heroes */
-div.I, div.A, div.B, div.C, div.D, div.E, div.F{
-    display: inline-block ;
-}
 
 .image_hero {
     border-radius: 10px;
@@ -558,5 +555,34 @@ button.btn_hero:active {
     }
 }
 
+div.I, div.A, div.B, div.C, div.D, div.E, div.F{
+    display: inline-block ;
+}
 
+div.I::before { 
+  content: "";
+  background-color: black;}
 
+div.A::before { 
+  content: "";
+  background-color: deepskyblue;}
+
+div.B::before { 
+  content: "";
+  background-color: greenyellow;}
+
+div.C::before { 
+  content: "";
+  background-color: palegreen;}
+
+div.D::before { 
+  content: "";
+  background-color: yellow;}
+
+div.E::before { 
+  content: "";
+  background-color: orange;}
+
+div.F::before { 
+  content: "";
+  background-color: red;}
