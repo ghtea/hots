@@ -444,8 +444,8 @@ this make error in desk top...
 
 
 .btn_hero_filter{
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 0.6%;
+    margin-right: 0.6%;
     color: #ffffff;
     
     margin-bottom: 8px;
@@ -489,7 +489,7 @@ this make error in desk top...
 }
 #btn_hero_filter_H{
     width:18%;
-    background-image: linear-gradient(to bottom right, #44F475, #00c9ff);
+    background-image: linear-gradient(to bottom right, #07DF29, #00c9ff);
 }
 #btn_hero_filter_A{
     width:27%;
