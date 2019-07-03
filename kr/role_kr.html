@@ -44,96 +44,47 @@
 <!--    don't forget    </div> later in this file   -->
 <div class="content">
 
-      
-    <div class = "tab_group" >
-    
-        <div id="role_D">DAMAGE</div>
-         <div id="role_H">HEAL</div>
-         <div id="role_A">ASSIST</div>
-    
-    </div>
     
 <div class="col_role_entire">
     
       <div class = "col_role">
+          <div id="role_D">DAMAGE</div>
          <button class="btn_role"   id = "btn_role_D_D" 
           onclick="filterSelection('D_D')"> Dealer</button>
-        
-      <div id="buttons_sub_role_D_D">
-    <button class="btn_sub_role"  onclick="filterSelection('D_D_B')"> 
-    Bomber</button>
-  <button class="btn_sub_role"  onclick="filterSelection('D_D_G')"> 
-    Guardian</button>
-    <button class="btn_sub_role"  onclick="filterSelection('D_D_S')"> 
-    Sniper</button>
-
-                                                                     
+        <button class="btn_role"   id = "btn_role_D_K" 
+          onclick="filterSelection('D_K')"> Killer</button>
+                                                                
      </div>
     </div>
     
     
-    <div class = "col_role">
-        <button class="btn_role"   id = "btn_role_D_K" 
-          onclick="filterSelection('D_K')"> Killer</button>
-        
-      <div id="buttons_sub_role_D_K">
-  <button class="btn_sub_role"  onclick="filterSelection('D_K_A')"> Assassin</button>
-<button class="btn_sub_role"  onclick="filterSelection('D_K_N')"> Nuker</button>
-<button class="btn_sub_role"  onclick="filterSelection('D_K_S')"> Shooter</button>
-          
-     </div>
         
         </div>
     
-        
+
     <div class = "col_role">
+          <div id="role_H">HEAL</div>
               <button class="btn_role"    id = "btn_role_H_H" 
           onclick="filterSelection('H_H')"> Healer</button>
-        
-      <div id="buttons_sub_role_H_H">
-  <button class="btn_sub_role"  onclick="filterSelection('H_H_O')"> Offensive</button>
-  <button class="btn_sub_role"   onclick="filterSelection('H_H_Def')"> Defensive</button>
-  <button class="btn_sub_role"   onclick="filterSelection('H_H_Dev')"> Devoted</button>
-  <button class="btn_sub_role"  onclick="filterSelection('H_H_S')"> Silence</button>  
-    <button class="btn_sub_role"  onclick="filterSelection('H_H_P')"> Potential</button>   
-     </div>
+
 </div>
     
     
     <div class = "col_role">
+         <div id="role_A">ASSIST</div>
         <button class="btn_role"    id = "btn_role_A_T" 
         onclick="filterSelection('A_T')"> Tank</button>
-        
-       <div id="buttons_sub_role_A_T">
-  <button class="btn_sub_role"  onclick="filterSelection('A_T_T')"> Tank</button>
-     </div>
-    </div>
-    
-    
-        <div class = "col_role">
-             <button class="btn_role"   id = "btn_role_A_F" 
+
+    <button class="btn_role"   id = "btn_role_A_F" 
         onclick="filterSelection('A_F')"> Fighter</button>
-            
-         <div id="buttons_sub_role_A_F">
-  <button class="btn_sub_role"  onclick="filterSelection('A_F_B')"> Bruiser</button>
-  <button class="btn_sub_role"  onclick="filterSelection('A_F_C')"> Carry</button>
-    <button class="btn_sub_role"  onclick="filterSelection('A_F_H')"> Hit&Run</button>  
-     </div>
-    </div>
-    
-    
-    <div class = "col_role">
-         <button class="btn_role"   id = "btn_role_A_S" 
+        
+   <button class="btn_role"   id = "btn_role_A_S" 
           onclick="filterSelection('A_S')"> Support</button>
             
-     <div id="buttons_sub_role_A_S_S">
-  <button class="btn_sub_role" onclick="filterSelection('A_S_S')"> Support</button>
- 
-        </div>
     </div>
     
     
-    </div>
+    
     
     
     <div class="information_role">
