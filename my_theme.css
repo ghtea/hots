@@ -563,8 +563,10 @@ div.sm_degree_I::before , div.sm_degree_A::before , div.sm_degree_B::before, div
   height: 18px; border-radius: 6px;
   padding-top: 2px; padding-bottom: 1px; padding-left: 1px; padding-right: 1px;
   text-align: center;
-  margin-bottom: 4px; 
   color: #ffffff;
+
+  position: relative;
+  bottom: 2px;
 }
 
 div.container_similar_heroes > div {
@@ -572,8 +574,6 @@ div.container_similar_heroes > div {
 }
 
 div.container_similar_heroes > div > img {
-    position: relative;
-    top:3px;
 }
 
 
