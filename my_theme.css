@@ -357,7 +357,9 @@ font-size: 15px;
     margin-bottom: 5px;
     
     height:30px;
-    padding-bottom: 3px;
+    /*text vertical align*/
+    line-height: 30px;
+    
     font-size: 18px;  
    border-radius: 10px;
     
@@ -368,7 +370,7 @@ font-size: 15px;
     
     border-style: solid;
     border-width: 3px;
-    padding-bottom: 5px !important;
+ 
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
@@ -376,12 +378,14 @@ font-size: 15px;
         margin-bottom: 3px;
         
         height: 24px;
-       padding-bottom: 1px;
+            /*text vertical align*/
+        line-height: 24px;
+        
+
         font-size:14px;
         border-radius: 6px;
         
         border-width: 2px;
-        padding-bottom: 2px !important;
     }
 }
 
