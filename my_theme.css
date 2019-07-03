@@ -397,6 +397,18 @@ this make error in desk top...
     }
 }
 
+/*   for sub-role buttons  only*/
+.btn_filter_sub_role{
+    margin-bottom: 5px;
+    
+}
+
+@media only screen and (min-width: 300px) and (max-width: 540px) {
+  .btn_filter_sub_role {
+        margin-bottom: 3px;
+    }
+}
+
 
 /* group col width */
 #btn_filter_hero_D, #col_group_D{
