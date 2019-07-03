@@ -253,11 +253,11 @@ font-size: 15px;
 
 
 
-.div_role{
-    float: left;
+.div_group{
     text-align: center;
     padding-top: 0.3vw;
     padding-bottom:  0.3vw;
+    border-style: solid;
 
     font-size: 22px;
     border-width: 5px;
@@ -266,7 +266,7 @@ font-size: 15px;
 
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
-    .div_role{
+    .div_group{
         
         font-size: 5vw;
         border-width: 2px;
@@ -481,10 +481,10 @@ btn_filter_hero, .btn_filter_sub_role {
 }
 
 
-#div_role_D{  color:#A8065E;   border-color:#FF4770 ;}
-#div_role_H{  color:#009685;   border-color:#4CDC61 ;}
-#div_role_A{  color:#0158EC;   border-color:#00c6fb ;}
-#div_role_S{   color:#fc6076;    border-color:#FFB24C ;}
+#div_group_D{  color:#A8065E;   border-color:#FF4770 ;}
+#div_group_H{  color:#009685;   border-color:#4CDC61 ;}
+#div_group_A{  color:#0158EC;   border-color:#00c6fb ;}
+#div_group_S{   color:#fc6076;    border-color:#FFB24C ;}
 
 
 /* hero buttons */
