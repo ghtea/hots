@@ -308,7 +308,7 @@ font-size: 15px;
 
 
 /* buttons */
-.btn_filter_hero, .btn_filter_sub_role, .div_group{
+.btn_filter_hero, .btn_filter_sub_role{
     
     margin-bottom: 8px;
     
@@ -332,7 +332,7 @@ font-size: 15px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 540px) {
-   .btn_filter_hero, .btn_filter_sub_role, .div_group {
+   .btn_filter_hero, .btn_filter_sub_role {
         margin-bottom: 5px;
         
         height: 24px;
@@ -343,8 +343,19 @@ font-size: 15px;
     }
 }
 
+
 /*  4 group names in page role  */
 .div_group{
+    text-align: center;
+    width:100%;
+
+    margin-bottom: 5px;
+    
+    height:30px;
+    padding-bottom: 3px;
+    font-size: 18px;  
+   border-radius: 10px;
+    
         /*  make border inner */
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -357,11 +368,19 @@ font-size: 15px;
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
     .div_group{
-        border-style: solid;
+        margin-bottom: 3px;
+        
+        height: 24px;
+       padding-bottom: 1px;
+        font-size:14px;
+        border-radius: 6px;
+        
         border-width: 2px;
         padding-bottom: 2px !important;
     }
 }
+
+
 
 
 /*   for sub-role buttons  margin*/
