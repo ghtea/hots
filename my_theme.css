@@ -148,7 +148,7 @@ white-space:nowrap;
 
 ul.submenu li a:hover{
 color: black;
-background:#D4B3FF;
+background:#DFC6FF;
 }
 
 
@@ -295,6 +295,14 @@ font-size: 15px;
 
 /* below 6 columns*/
 
+
+/* Clear floats after the columns */
+.filter_sub_role_group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .col_role {
   float: left;
  margin-left:  0.6%;
@@ -302,15 +310,9 @@ font-size: 15px;
   width: 15.46%;
 }
 
-/* Clear floats after the columns */
-.col_role_entire:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* buttons */
-.btn_role,   .btn_sub_role  {
+.btn_role  {
     margin-top: 8px;
     margin-bottom: 8px;
     
@@ -322,7 +324,6 @@ font-size: 15px;
     
     border-radius: 10px;
     
-    background-color: #dddddd;
     border: none;
     text-decoration: none;
     display: inline-block;
@@ -344,23 +345,6 @@ font-size: 15px;
         font-size: 2.8vw;
         border-radius: 6px;
     }
-}
-
-.btn_role{
-     color: white;
-}
-
-/* three  diffenrt colors  */
-#btn_role_D_K,  #btn_role_D_D {
-    background-color: #C5191C;
-}
-
-#btn_role_H_H {
-    background-color: #00BB6E;
-}
-
-#btn_role_A_T,  #btn_role_A_F, #btn_role_A_S {
-    background-color: #1971D1;
 }
 
 
@@ -431,17 +415,16 @@ this make error in desk top...
 /* tap  */
 
 /* make horizontal button works*/
-.btn_filter_group:after {
+.filter_hero_group:after {
   content: "";
   clear: both;
   display: table;
 }
 
 
-.btn_hero_filter{
+.btn_filter_hero{
     margin-left: 0.7%;
     margin-right: 0.7%;
-    color: #ffffff;
     
     margin-bottom: 8px;
     
@@ -464,7 +447,7 @@ this make error in desk top...
     
 }
 @media only screen and (min-width: 300px) and (max-width: 540px) {
-   .btn_hero_filter {
+   .btn_filter_hero {
         margin-bottom: 5px;
         
         height: 30px;
@@ -476,22 +459,40 @@ this make error in desk top...
 }
 
 
+/* group col width */
+#btn_filter_hero_D, #col_role_D{
+     width:25%;
+}
+#btn_filter_hero_H, #col_role_H{
+        width:21%;
+}
 
-/* role colors  */
-#btn_hero_filter_D{
-    width:25%;
+#btn_filter_hero_A, #col_role_A{
+     width:25%;
+}
+
+#btn_filter_hero_S, #col_role_S{
+        width:21%;
+}
+
+
+
+btn_filter_hero, .btn_filter_sub_role {
+     color: #ffffff;
+}
+
+
+/* role colors   -> sub role colors in page role */
+#btn_filter_hero_D, #btn_filter_sub_role_D_D, #btn_filter_sub_role_D_K {
     background-image: linear-gradient(to bottom right, #A8065E, #FF4770);
 }
-#btn_hero_filter_H{
-    width:21%;
+#btn_filter_hero_H, #btn_filter_sub_role_H_H{
     background-image: linear-gradient(to bottom right, #009685, #4CDC61);
 }
-#btn_hero_filter_A{
-    width:25%;
+#btn_filter_hero_A, #btn_filter_sub_role_A_T, #btn_filter_sub_role_A_F, btn_filter_sub_role_A_S{
     background-image: linear-gradient(to bottom right, #0158EC,#00c6fb);
 }
-#btn_hero_filter_S{
-    width:21%;
+#btn_filter_hero_S, #btn_filter_sub_role_S_S{
     background-image: linear-gradient(to bottom right, #fc6076, #FFB24C);
 }
 
