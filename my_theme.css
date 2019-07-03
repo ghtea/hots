@@ -252,43 +252,27 @@ font-size: 15px;
 
 
 
-/* for page 'role desc heroes */
 
-/*  top 3 columns    */
-
-/* make column  work*/
-
-
-#role_D, #role_H, #role_A {
-    font-size: 22px;
+.div_role{
     float: left;
     text-align: center;
     padding-top: 0.3vw;
     padding-bottom:  0.3vw;
+
+    font-size: 22px;
+    border-width: 5px;
 }
 
-#role_D{ width: 33.3%;}
-#role_H{ width: 16.6%;}
-#role_A{ width: 50%;}
 
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
-    #role_D, #role_H, #role_A{
+    .div_role{
+        
         font-size: 5vw;
+        border-width: 2px;
     }
 }
 
-#role_D{
-    color: #C5191C;
-}
-
-#role_H {
-    color: #00BB6E;
-}
-
-#role_A {
-    color: #1971D1;
-}
 
 
 
@@ -496,6 +480,11 @@ btn_filter_hero, .btn_filter_sub_role {
     background-image: linear-gradient(to bottom right, #fc6076, #FFB24C);
 }
 
+
+#div_role_D{  color:#A8065E ;}
+#div_role_H{  color:#009685   ;}
+#div_role_A{  color:#0158EC   ;}
+#div_role_S{   color:#fc6076  ;}
 
 
 /* hero buttons */
