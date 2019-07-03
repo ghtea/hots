@@ -347,22 +347,22 @@ font-size: 15px;
     -webkit-box-sizing: border-box;
     
     border-style: solid;
-    border-width: 4px;
+    border-width: 3px;
+    padding-bottom: 3px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
     .div_group{
         border-style: solid;
         border-width: 2px;
+        padding-bottom: 1px;
     }
 }
 
 
 /*   for sub-role buttons  margin*/
 .btn_filter_sub_role{
-        
     margin-bottom: 5px;
-    
 }
 
 @media only screen and (min-width: 300px) and (max-width: 540px) {
@@ -589,10 +589,17 @@ div.container_similar_heroes > div > img {
  margin-left:   12px;
  margin-right: 12px;
 
-border: 4px solid #eeeeee;
+border: 3px solid #eeeeee;
+background-color: #F9F9F9;
  border-radius: 12px;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 540px) {
+    .information_role > .filterDiv {
+        border-width: 2px;
+        
+    }
+}
 
 
 /* Add a dark background to the active button
