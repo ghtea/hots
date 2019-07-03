@@ -473,7 +473,7 @@ btn_filter_hero, .btn_filter_sub_role {
 #btn_filter_hero_H, #btn_filter_sub_role_H_H{
     background-image: linear-gradient(to bottom right, #009685, #4CDC61);
 }
-#btn_filter_hero_A, #btn_filter_sub_role_A_T, #btn_filter_sub_role_A_F, btn_filter_sub_role_A_S{
+#btn_filter_hero_A, #btn_filter_sub_role_A_T, #btn_filter_sub_role_A_F, #btn_filter_sub_role_A_S{
     background-image: linear-gradient(to bottom right, #0158EC,#00c6fb);
 }
 #btn_filter_hero_S, #btn_filter_sub_role_S_S{
@@ -481,10 +481,10 @@ btn_filter_hero, .btn_filter_sub_role {
 }
 
 
-#div_role_D{  color:#A8065E ;}
-#div_role_H{  color:#009685   ;}
-#div_role_A{  color:#0158EC   ;}
-#div_role_S{   color:#fc6076  ;}
+#div_role_D{  color:#A8065E;   border-color:#FF4770 ;}
+#div_role_H{  color:#009685;   border-color:#4CDC61 ;}
+#div_role_A{  color:#0158EC;   border-color:#00c6fb ;}
+#div_role_S{   color:#fc6076;    border-color:#FFB24C ;}
 
 
 /* hero buttons */
