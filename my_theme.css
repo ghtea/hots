@@ -183,7 +183,7 @@ strong {
     color:black;
 }
 
-h4, p,
+/*h4, p,
 blockquote, ul,
 fieldset, form,
 ol, dl, dir
@@ -191,6 +191,7 @@ ol, dl, dir
 padding-left: 10px;
 padding-right: 10px;
 }
+*/
 
 .talking {
     font-style: oblique;
