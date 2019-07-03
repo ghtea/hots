@@ -386,11 +386,13 @@ this make error in desk top...
 
 /*  4 group names in page role  */
 .div_group{
+    border-style: solid;
     border-width: 5px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
     .div_group{
+        border-style: solid;
         border-width: 2px;
     }
 }
