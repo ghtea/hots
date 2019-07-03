@@ -183,9 +183,13 @@ strong {
     color:black;
 }
 
-p {
-padding-left: 12px;
-padding-right: 12px;
+h4, p,
+blockquote, ul,
+fieldset, form,
+ol, dl, dir
+{
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .talking {
