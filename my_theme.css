@@ -406,7 +406,7 @@ this make error in desk top...
 }
 
 
-.btn_filter_hero, btn_filter_sub_role{
+.btn_filter_hero, .btn_filter_sub_role{
     margin-left: 0.7%;
     margin-right: 0.7%;
     
@@ -431,7 +431,7 @@ this make error in desk top...
     
 }
 @media only screen and (min-width: 300px) and (max-width: 540px) {
-   .btn_filter_hero, btn_filter_sub_role {
+   .btn_filter_hero, .btn_filter_sub_role {
         margin-bottom: 5px;
         
         height: 30px;
