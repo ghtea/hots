@@ -320,7 +320,6 @@ font-size: 15px;
     padding-left:  0;
     padding-right:  0;
     
-    border-radius: 30%;
     
     border: none;
     text-decoration: none;
@@ -332,6 +331,7 @@ font-size: 15px;
     width:100%;
     
     height:30px;
+     border-radius: 10px;
     padding-bottom: 3px;
     font-size: 18px;  
 }
@@ -341,10 +341,10 @@ font-size: 15px;
         margin-bottom: 5px;
         
         height: 24px;
+        border-radius: 8px;
        padding-bottom: 1px;
         font-size:14px;
        
-        border-radius: 30%;
     }
 }
 
@@ -357,11 +357,11 @@ font-size: 15px;
     margin-bottom: 5px;
     
     height:30px;
+    border-radius: 10px;
     /*text vertical align*/
-    line-height: 20px;
+    line-height: 30px;
     
     font-size: 18px;  
-   border-radius: 30%;
     
         /*  make border inner */
     box-sizing: border-box;
@@ -378,12 +378,13 @@ font-size: 15px;
         margin-bottom: 3px;
         
         height: 24px;
+        border-radius: 8px;
             /*text vertical align*/
         line-height: 24px;
         
 
         font-size:14px;
-        border-radius: 6px;
+    
         
         border-width: 2px;
     }
@@ -478,7 +479,7 @@ button.hero_g_Sp{
 
 .btn_hero{
     /*background-size: 60px 60px;*/
-    border-radius: 10px;
+    border-radius: 20%;
     margin:4px;
     height: 50px;  
     width: 50px;
@@ -493,7 +494,7 @@ button.hero_g_Sp{
 @media only screen and (min-width: 300px) and (max-width: 540px) {
     .btn_hero {
     /*background-size: 33px 33px;*/
-    border-radius: 7px;
+     border-radius: 20%;
     margin:2px;
     height: 33px;  
     width: 33px;
@@ -559,7 +560,7 @@ div.container_similar_heroes > div > img {
 .container_h1 img {
   float: left;
     
-border-radius: 22px;
+ border-radius: 20%;
 margin-left:5px;
 margin-bottom: 0px;
 
@@ -580,13 +581,13 @@ margin-bottom: 0px;
 @media only screen and (min-width: 300px) and (max-width: 540px) {
    .container_h1 img {
 
-        border-radius: 13px;
         margin-left:2px;
        margin-top: 8px;
         margin-bottom: 0px;
 
-         width: 66px;
-          height: 66px;
+        width: 66px;
+        height: 66px;
+        border-radius: 20%;
        float: none;
 }
 
