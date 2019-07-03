@@ -148,7 +148,7 @@ white-space:nowrap;
 
 ul.submenu li a:hover{
 color: black;
-background:#DFC6FF;
+background:#E9D8FF;
 }
 
 
@@ -288,12 +288,11 @@ font-size: 15px;
   float: left;
  margin-left:  0.6%;
  margin-right: 0.6%;
-  width: 15.46%;
 }
 
 
 /* buttons */
-.btn_role  {
+.btn_filter_sub_role  {
     margin-top: 8px;
     margin-bottom: 8px;
     
