@@ -442,17 +442,17 @@ this make error in desk top...
 
 
 /*   role border colors (using brighter color of gradient)   role colors */
-.hero_g_D{
-    border-color: #FF4770 ;
+button.hero_g_D{
+    border-color: #FF4770;
 }
-.hero_g_H{
-    border-color:  #4CDC61 ;
+button.hero_g_H{
+    border-color:  #4CDC61;
 }
-.hero_g_A{
-    border-color:  #00c6fb ;
+button.hero_g_A{
+    border-color:  #00c6fb;
 }
-.hero_g_S{
-    border-color:  #FFB24C ;
+button.hero_g_S{
+    border-color:  #FFB24C;
 }
 
 
