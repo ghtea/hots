@@ -485,7 +485,7 @@ this make error in desk top...
 /* role colors  */
 #btn_hero_filter_D{
     width:25%;
-    background-image: linear-gradient(to bottom right, #FF2F58, #FF2F58);
+    background-image: linear-gradient(to bottom right, #A8065E, #FF2F58);
 }
 #btn_hero_filter_H{
     width:21%;
@@ -518,7 +518,7 @@ this make error in desk top...
 
 /*   role border colors (using brighter color of gradient)   role colors */
 .hero_g_D{
-    border-color: #FC0366 ;
+    border-color: #FF2F58 ;
 }
 .hero_g_H{
     border-color:  #4CDC61 ;
