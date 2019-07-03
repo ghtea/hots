@@ -489,7 +489,7 @@ this make error in desk top...
 }
 #btn_hero_filter_H{
     width:21%;
-    background-image: linear-gradient(to bottom right, #00A09A, #4CDC61);
+    background-image: linear-gradient(to bottom right, #009685, #4CDC61);
 }
 #btn_hero_filter_A{
     width:25%;
@@ -521,7 +521,7 @@ this make error in desk top...
     border-color: #FC0366 ;
 }
 .hero_g_H{
-    border-color:  #92fe9d ;
+    border-color:  #4CDC61 ;
 }
 .hero_g_A{
     border-color:  #00c6fb ;
