@@ -574,6 +574,7 @@ div.container_similar_heroes > div {
 }
 
 div.container_similar_heroes > div > img {
+    margin-right: 2px;
 }
 
 
