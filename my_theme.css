@@ -358,10 +358,10 @@ font-size: 15px;
     
     height:30px;
     /*text vertical align*/
-    line-height: 30px;
+    line-height: 20px;
     
     font-size: 18px;  
-   border-radius: 10px;
+   border-radius: 30%;
     
         /*  make border inner */
     box-sizing: border-box;
@@ -638,7 +638,7 @@ div.sm_degree_I::before , div.sm_degree_A::before , div.sm_degree_B::before, div
   color: #ffffff;
 
   position: relative;
-  bottom: 2px;
+  top: 50%;
 }
 
 
