@@ -183,6 +183,10 @@ strong {
     color:black;
 }
 
+ul, ol {
+    padding-right: 5px;
+}
+
 /*h4, p,
 blockquote, ul,
 fieldset, form,
@@ -599,6 +603,7 @@ div.container_similar_heroes > div {
 
 div.container_similar_heroes > div > img {
     margin-right: 2px;
+    
 }
 
 
@@ -638,9 +643,11 @@ background-color: #F9F9F9;
 this make error in desk top...
 */
 
-/* heroes in this role, simialr heroes */
+/* page role,  heroes in  this role */
 
-.image_hero {
+ .information_role > .image_hero {
+    padding-left: 8px;
+    
     border-radius: 10px;
     margin:2px;
     height: 50px;  
@@ -648,9 +655,11 @@ this make error in desk top...
 }
 
 @media only screen and (min-width: 300px) and (max-width: 540px) {
-    .image_hero {
+    .information_role > .image_hero {
+        padding-left: 6px;
+        
         border-radius: 7px;
-        margin:2px;
+        margin:1px;
         height: 33px;  
         width: 33px;
     }
