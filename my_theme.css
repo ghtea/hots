@@ -250,9 +250,6 @@ font-size: 15px;
 
 
 
-
-
-
 .div_group{
     text-align: center;
     padding-top: 0.3vw;
@@ -287,7 +284,7 @@ font-size: 15px;
   clear: both;
 }
 
-.col_role {
+.col_group {
   float: left;
  margin-left:  0.6%;
  margin-right: 0.6%;
@@ -383,8 +380,6 @@ this make error in desk top...
 
 
 
-
-
 /*for surveys*/
 .survey{
     margin-top: 20px;
@@ -444,24 +439,24 @@ this make error in desk top...
 
 
 /* group col width */
-#btn_filter_hero_D, #col_role_D{
+#btn_filter_hero_D, #col_group_D{
      width:25%;
 }
-#btn_filter_hero_H, #col_role_H{
+#btn_filter_hero_H, #col_group_H{
         width:21%;
 }
 
-#btn_filter_hero_A, #col_role_A{
+#btn_filter_hero_A, #col_group_A{
      width:25%;
 }
 
-#btn_filter_hero_S, #col_role_S{
+#btn_filter_hero_S, #col_group_S{
         width:21%;
 }
 
 
 
-btn_filter_hero, .btn_filter_sub_role {
+.btn_filter_hero, .btn_filter_sub_role {
      color: #ffffff;
 }
 
@@ -487,19 +482,6 @@ btn_filter_hero, .btn_filter_sub_role {
 #div_group_S{   color:#fc6076;    border-color:#FFB24C ;}
 
 
-/* hero buttons */
-.btn_hero{
-    /*background-size: 60px 60px;*/
-    border-radius: 10px;
-    margin:4px;
-    height: 50px;  
-    width: 50px;
-    outline: none;
-    box-shadow: none;
-    border: 2px solid #C5191C;
-    background-size: contain;
-}
-
 
 /*   role border colors (using brighter color of gradient)   role colors */
 .hero_g_D{
@@ -515,6 +497,21 @@ btn_filter_hero, .btn_filter_sub_role {
     border-color:  #FFB24C ;
 }
 
+
+
+
+/* hero buttons */
+.btn_hero{
+    /*background-size: 60px 60px;*/
+    border-radius: 10px;
+    margin:4px;
+    height: 50px;  
+    width: 50px;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #C5191C;
+    background-size: contain;
+}
 
 @media only screen and (min-width: 300px) and (max-width: 540px) {
     .btn_hero {
