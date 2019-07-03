@@ -267,52 +267,7 @@ font-size: 15px;
 }
 
 
-/* buttons */
-.btn_filter_sub_role, .div_group {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    
-    padding-top: 7px;
-    padding-bottom:  7px;
-    
-    padding-left:  0;
-    padding-right:  0;
-    
-    border-radius: 10px;
-    
-    border: none;
-    text-decoration: none;
-    display: inline-block;
-    display: block;
-     text-align: center;
-    width: 100%;
-    
-    font-size: 18px;
-}
 
-@media only screen and (min-width: 300px) and (max-width: 540px) {
-  .btn_filter_sub_role, .div_group  {
-        margin-top: 1vw;
-        margin-bottom: 1vw;
-        
-        padding-top: 0.8vw;
-        padding-bottom:  0.8vw;
-        
-        font-size: 2.8vw;
-        border-radius: 6px;
-    }
-}
-
-
-.div_group{
-    border-width: 5px;
-}
-
-@media only screen and (min-width: 300px) and (max-width: 900px) {
-    .div_group{
-        border-width: 2px;
-    }
-}
 
 
 
@@ -387,6 +342,57 @@ this make error in desk top...
 }
 
 
+
+
+/* buttons */
+.btn_filter_sub_role, .div_group {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+    padding-top: 7px;
+    padding-bottom:  7px;
+    
+    padding-left:  0;
+    padding-right:  0;
+    
+    border-radius: 10px;
+    
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    display: block;
+     text-align: center;
+    width: 100%;
+    
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 540px) {
+  .btn_filter_sub_role, .div_group  {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        
+        padding-top: 0.8vw;
+        padding-bottom:  0.8vw;
+        
+        font-size: 2.8vw;
+        border-radius: 6px;
+    }
+}
+
+
+.div_group{
+    border-width: 5px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .div_group{
+        border-width: 2px;
+    }
+}
+
+
+
 .btn_filter_hero, .btn_filter_sub_role{
     margin-left: 0.7%;
     margin-right: 0.7%;
@@ -408,9 +414,9 @@ this make error in desk top...
       float: left;
      cursor: pointer;
     
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
+
 @media only screen and (min-width: 300px) and (max-width: 540px) {
    .btn_filter_hero, .btn_filter_sub_role {
         margin-bottom: 5px;
