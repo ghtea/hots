@@ -175,7 +175,7 @@ color:black;
 }
 h1 { font-size: 2em; margin: 0.55em 5px;  z-index: -1;    }
 h2 { font-size: 1.5em; margin: 0.6em 5px }
-h3 {font-size: 1.17em; margin: 0.33em 5px}
+h3 {font-size: 1.17em; margin: 0.1em 5px}
 
 strong {
     background-color: #FFFDC2;
@@ -499,7 +499,7 @@ margin-bottom: 0px;
 .container_h1 h1 {
   position: relative;
   top: 55px;
-  margin-bottom: 55px;
+  margin-bottom: 66px;
   left: 10px;
 }
 
