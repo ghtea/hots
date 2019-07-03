@@ -4,12 +4,54 @@
 /* margin, padding: only pages with no r tables()?) */
   body {
     margin: 0;
-    padding: 0;
+    padding-right: 6px;
     font-size: 16px;
     line-height: 1.8;
     font-weight: 400;
     font-family: Helvetica, Arial, sans-serif;
   }
+
+
+/* basic, theme by mbcat */
+/*
+default
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: .75em 0 }
+h3              { font-size: 1.17em; margin: .83em 0 }
+h4, p,
+blockquote, ul,
+fieldset, form,
+ol, dl, dir,
+menu            { margin: 1.12em 0 }
+h5              { font-size: .83em; margin: 1.5em 0 }
+h6              { font-size: .75em; margin: 1.67em 0 }
+*/
+
+
+h1, h2, h3, h4, h5 {
+color:black;
+}
+h1 { font-size: 2em; margin: 0.55em 5px;  z-index: -1;    }
+h2 { font-size: 1.5em; margin: 0.6em 5px }
+h3 {font-size: 1.17em; margin: 0.1em 5px}
+
+strong {
+    background-color: #FFFDC2;
+    border:1px solid #FFFDC2;
+    color:black;
+}
+
+
+
+/*h4, p,
+blockquote, ul,
+fieldset, form,
+ol, dl, dir
+{
+padding-left: 10px;
+padding-right: 10px;
+}
+*/
 
   ul#menu {
   font-size: 18px;
@@ -153,49 +195,7 @@ background:#E9D8FF;
 
 
 
-/* basic, theme by mbcat */
-/*
-default
-h1              { font-size: 2em; margin: .67em 0 }
-h2              { font-size: 1.5em; margin: .75em 0 }
-h3              { font-size: 1.17em; margin: .83em 0 }
-h4, p,
-blockquote, ul,
-fieldset, form,
-ol, dl, dir,
-menu            { margin: 1.12em 0 }
-h5              { font-size: .83em; margin: 1.5em 0 }
-h6              { font-size: .75em; margin: 1.67em 0 }
-*/
 
-
-
-h1, h2, h3, h4, h5 {
-color:black;
-}
-h1 { font-size: 2em; margin: 0.55em 5px;  z-index: -1;    }
-h2 { font-size: 1.5em; margin: 0.6em 5px }
-h3 {font-size: 1.17em; margin: 0.1em 5px}
-
-strong {
-    background-color: #FFFDC2;
-    border:1px solid #FFFDC2;
-    color:black;
-}
-
-ul, ol {
-    padding-right: 5px;
-}
-
-/*h4, p,
-blockquote, ul,
-fieldset, form,
-ol, dl, dir
-{
-padding-left: 10px;
-padding-right: 10px;
-}
-*/
 
 .talking {
     font-style: oblique;
