@@ -510,7 +510,8 @@ button.hero_g_S{
  .image_hero {
     padding-left: 8px;
     
-    border-radius: 10px;
+    border-radius: 20% !important ;
+     
     margin:2px;
     height: 50px;  
     width: 50px;
@@ -520,7 +521,6 @@ button.hero_g_S{
     .image_hero {
         padding-left: 6px;
         
-        border-radius: 7px;
         margin:1px;
         height: 33px;  
         width: 33px;
@@ -542,7 +542,6 @@ button.hero_g_S{
 /* especially for small hero images in page hero, similar heroes*/
 
 div.container_similar_heroes > div > img {
-    margin-right: 2px;
     
 }
 
