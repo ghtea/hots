@@ -423,7 +423,7 @@ font-size: 15px;
      width:25%;
 }
 
-#btn_filter_hero_S, #col_group_S{
+#btn_filter_hero_Sp, #col_group_Sp{
         width:21%;
 }
 
@@ -444,7 +444,7 @@ font-size: 15px;
 #btn_filter_hero_A, #btn_filter_sub_role_A_T, #btn_filter_sub_role_A_F, #btn_filter_sub_role_A_S{
     background-image: linear-gradient(to bottom right, #0158EC,#14AAFA);
 }
-#btn_filter_hero_S, #btn_filter_sub_role_S_S{
+#btn_filter_hero_Sp, #btn_filter_sub_role_Sp_Sp{
     background-image: linear-gradient(to bottom right, #fc6076, #FFB24C);
 }
 
@@ -452,7 +452,7 @@ font-size: 15px;
 #div_group_D{  color:#A8065E;   border-color:#A8065E ;}
 #div_group_H{  color:#009685;   border-color:#009685 ;}
 #div_group_A{  color:#0158EC;   border-color:#0158EC ;}
-#div_group_S{   color:#fc6076;    border-color:#fc6076 ;}
+#div_group_Sp{   color:#fc6076;    border-color:#fc6076 ;}
 
 
 
@@ -466,7 +466,7 @@ button.hero_g_H{
 button.hero_g_A{
     border-color:  #00c6fb;
 }
-button.hero_g_S{
+button.hero_g_Sp{
     border-color:  #FFB24C;
 }
 
