@@ -512,8 +512,7 @@ button.hero_g_S{
 /* hero images  (small ones) */
 
  .image_hero {
-    padding-left: 8px;
-    
+   
     border-radius: 20% !important ;
      
     margin:2px;
@@ -523,7 +522,7 @@ button.hero_g_S{
 
 @media only screen and (min-width: 300px) and (max-width: 540px) {
     .image_hero {
-        padding-left: 6px;
+    
         
         margin:1px;
         height: 33px;  
