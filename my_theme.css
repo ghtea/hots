@@ -345,6 +345,11 @@ font-size: 15px;
 
 /*  4 group names in page role  */
 .div_group{
+        /*  make border inner */
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
     border-style: solid;
     border-width: 4px;
 }
@@ -356,15 +361,10 @@ font-size: 15px;
     }
 }
 
-/*   for sub-role buttons  only*/
+
+/*   for sub-role buttons  margin*/
 .btn_filter_sub_role{
-    
-    /*  make border inner */
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    
-    
+        
     margin-bottom: 5px;
     
 }
