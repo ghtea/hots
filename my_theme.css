@@ -250,30 +250,6 @@ font-size: 15px;
 
 
 
-.div_group{
-    text-align: center;
-    padding-top: 0.3vw;
-    padding-bottom:  0.3vw;
-    border-style: solid;
-
-    font-size: 22px;
-    border-width: 5px;
-}
-
-
-
-@media only screen and (min-width: 300px) and (max-width: 900px) {
-    .div_group{
-        
-        font-size: 5vw;
-        border-width: 2px;
-    }
-}
-
-
-
-
-
 /* below 6 columns*/
 
 
@@ -292,7 +268,7 @@ font-size: 15px;
 
 
 /* buttons */
-.btn_filter_sub_role  {
+.btn_filter_sub_role, .div_group {
     margin-top: 8px;
     margin-bottom: 8px;
     
@@ -315,7 +291,7 @@ font-size: 15px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 540px) {
-    .btn_role,   .btn_sub_role {
+  .btn_filter_sub_role, .div_group  {
         margin-top: 1vw;
         margin-bottom: 1vw;
         
@@ -324,6 +300,17 @@ font-size: 15px;
         
         font-size: 2.8vw;
         border-radius: 6px;
+    }
+}
+
+
+.div_group{
+    border-width: 5px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .div_group{
+        border-width: 2px;
     }
 }
 
