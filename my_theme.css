@@ -587,10 +587,12 @@ div.container_similar_heroes > div > img {
 
 .information_role > .filterDiv {
   float: left;
- margin-right: 30px;
+    
+margin-left:   12px;
+ margin-right: 12px;
 
- background-color: #eeeeee;
- border-radius: 30px;
+border: 4px solid #eeeeee;
+ border-radius: 12px;
 }
 
 
