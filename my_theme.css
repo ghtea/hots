@@ -593,7 +593,7 @@ div.sm_degree_I::before , div.sm_degree_A::before , div.sm_degree_B::before, div
   text-align: center;
   color: #ffffff;
 
-  position: absolute;
+  position: relative;
   bottom: 2px;
 }
 
