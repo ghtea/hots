@@ -1,7 +1,7 @@
 
  //call my menu !!!
    $(function(){
- $("#menu_div").load("https://ghtea.github.io/hots/jp/menu_jp.html");
+ $("#menu_div_jp").load("https://ghtea.github.io/hots/jp/menu_jp.html");
     });
 
  $(function(){
