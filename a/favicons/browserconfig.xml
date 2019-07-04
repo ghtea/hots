@@ -2,8 +2,8 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="https://ghtea.github.io/hots/a/mstile-150x150.png"/>
-            <TileColor>#673cef</TileColor>
+            <square150x150logo src="https://ghtea.github.io/hots/a/favicons/mstile-150x150.png"/>
+            <TileColor>#7922eb</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
